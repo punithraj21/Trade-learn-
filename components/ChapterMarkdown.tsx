@@ -38,6 +38,23 @@ export default function ChapterMarkdown({ content }: { content: string }) {
               </code>
             );
           },
+          // Chapter diagrams (see public/diagrams/) are self-contained SVG
+          // cards with their own light background/border baked in — wrap in
+          // a caption, not a second competing border.
+          img: ({ src, alt }) => (
+            <figure className="not-prose my-6 flex flex-col items-center gap-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={typeof src === "string" ? src : ""}
+                alt={alt ?? ""}
+                loading="lazy"
+                className="w-full max-w-xl rounded-xl shadow-sm ring-1 ring-black/5"
+              />
+              {alt && (
+                <figcaption className="text-center text-xs text-ink-400 dark:text-ink-500">{alt}</figcaption>
+              )}
+            </figure>
+          ),
         }}
       >
         {content}
