@@ -48,24 +48,21 @@ It is not magic. Two honest reasons:
 - **Self-fulfilling:** so many traders watch these levels that they place orders there. Their buying can actually create the bounce.
 - **They line up with real levels:** Fib levels often sit near old support/resistance, so they get extra strength.
 
+![A Fibonacci retracement drawn on an uptrend from a ₹100 swing low to a ₹200 swing high, with the 23.6%, 38.2%, 50%, and 61.8% levels marked below as potential support on a pullback.](/diagrams/fibonacci-retracement-1.svg)
+
+![A Fibonacci retracement drawn on a downtrend from a ₹500 swing high down to a ₹400 swing low, with the 23.6%, 38.2%, 50%, and 61.8% levels marked above as potential resistance on a bounce.](/diagrams/fibonacci-retracement-2.svg)
+
 ## 🔍 Example
 
 A stock rises from ₹100 (swing low) to ₹200 (swing high). That is a ₹100 move up.
 
 Draw the Fib tool from ₹100 to ₹200. The pullback levels are:
 
-```
-₹200  ── swing high (0%)
-₹176  ── 23.6%
-₹162  ── 38.2%
-₹150  ── 50%
-₹138  ── 61.8%  ← golden ratio
-₹100  ── swing low (100%)
-```
-
 Now price starts to dip. It falls to ₹138 — the **61.8% level**. You also notice ₹138 was an old resistance from last month, now acting as support. That agreement is called **confluence** (two or more signals pointing to the same price).
 
 Because two things agree, this level is stronger. Price bounces off ₹138 and continues up. That is the setup Fibonacci traders look for.
+
+![Price rises from a ₹100 swing low to a ₹200 swing high, then pulls back and bounces exactly at ₹138 — the 61.8% level — which lines up with old resistance for added confluence.](/diagrams/fibonacci-retracement-3.svg)
 
 ## ⚠️ Common mistakes
 - **Using Fibonacci alone.** A level by itself means little. Wait for **confluence** with support/resistance or a moving average (a line showing the average price).
@@ -73,6 +70,8 @@ Because two things agree, this level is stronger. Price bounces off ₹138 and c
 - **Treating a level as an exact price.** It is a zone, not a laser line. Give it a little room.
 - **Forcing every chart to fit.** Some moves just ignore Fib levels. That is normal.
 - **Buying the moment price touches a level.** Wait for a sign the bounce is real (like a strong green candle), then decide.
+
+![A pullback stalling near ₹142 instead of exactly at the ₹138 level, contrasting the mistake of expecting an exact touch with treating the 61.8% level as a ₹131–₹145 zone.](/diagrams/fibonacci-retracement-4.svg)
 
 ## ✅ Key takeaways
 - Fibonacci retracement shows where a pullback might pause.

@@ -59,6 +59,14 @@ Many things push buyers and sellers at once:
 - **Market sentiment (the crowd's mood — fear or greed)** — changes how people react.
 - **Technical levels** like **support (a floor where buyers step in)** and **resistance (a ceiling where sellers step in)**.
 
+![Flow diagram of buyers (demand) pushing price up and sellers (supply) pushing price down, meeting in the middle as "Price moves"](/diagrams/how-price-moves-1.svg)
+
+![Price line chart of an uptrend making a higher high and a higher low, with the impulse and pullback legs marked](/diagrams/how-price-moves-2.svg)
+
+![Price line chart of a downtrend making a lower high and a lower low](/diagrams/how-price-moves-3.svg)
+
+![Price line chart of a range: price oscillating sideways between the same high and the same low, with no higher high or lower low](/diagrams/how-price-moves-4.svg)
+
 ## 🔍 Example
 Imagine a share of "ABC Ltd" in an uptrend.
 
@@ -68,16 +76,9 @@ Imagine a share of "ABC Ltd" in an uptrend.
 
 Look at the numbers: the high went 120 → 135 (higher high), and the low went 100 → 110 (higher low). That is an **uptrend**.
 
-```
-       135
-   120  /
-   /\  /
-  /  \/  <- pullback to 110
- /
-100
-```
-
 The path looks like stairs going up, not a straight line.
+
+![Price line chart of ABC Ltd rising from ₹100 to ₹120 (impulse), pulling back to ₹110, then rising again to ₹135 (impulse), forming a higher high and a higher low](/diagrams/how-price-moves-5.svg)
 
 ## ⚠️ Common mistakes
 - Thinking price will go up in a straight line — it always rests and pulls back.
@@ -85,6 +86,8 @@ The path looks like stairs going up, not a straight line.
 - Buying at the very top of an impulse, right before a pullback.
 - Believing price moves are random — they follow a cycle of impulse and correction.
 - Ignoring the highs and lows, so you miss whether the trend is up or down.
+
+![Price line chart marking a bad entry made at ₹120, the very top of the ABC Ltd impulse, right before price pulls back to ₹110](/diagrams/how-price-moves-6.svg)
 
 ## ✅ Key takeaways
 - Price moves in waves, not in a straight line, and it is not random.

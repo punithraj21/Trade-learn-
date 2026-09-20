@@ -54,21 +54,22 @@ Practice is powerful, but it is not the full game. Be honest with yourself.
 - Fills (the price at which your order actually completes) can look too perfect on demo. Real markets can give a slightly worse price.
 - So treat good paper results as a green light, not a guarantee.
 
+![The safe path from practice to real trading: backtest on past data, then forward-test on paper in the live market, then go live with a small position, then scale up slowly.](/diagrams/practice-with-paper-trading-1.svg)
+
 ## 🔍 Example
 Riya wants to test one simple rule before using real money.
 
 - Her rule: buy a stock when it crosses above its 20-day average price; sell if it falls 5%.
 - **Backtest:** she checks the last 100 trades this rule would have made on past data.
 
-```
-100 trades: 55 wins, 45 losses
-Result: small profit overall  -> looks promising
-```
+![Riya's backtest of 100 past trades: 55 wins and 45 losses, for a small overall profit.](/diagrams/practice-with-paper-trading-2.svg)
 
 - **Forward-test:** she paper trades the same rule for 2 months on live prices.
 - She follows every rule and makes ₹4,000 of fake profit over 30 trades.
 - **Go live small:** she starts with tiny real trades — ₹500 each, not ₹50,000.
 - After 3 calm, rule-following months, she slowly increases her size.
+
+![Comparison of Riya's real-money trade sizes: a smart small start of ₹500 per trade versus the risky ₹50,000 jump she avoided.](/diagrams/practice-with-paper-trading-3.svg)
 
 ## ⚠️ Common mistakes
 - Skipping practice and jumping straight to real money.
@@ -76,6 +77,8 @@ Result: small profit overall  -> looks promising
 - Testing too few trades. Ten trades prove nothing; look for 30 or more.
 - Believing perfect paper results will repeat exactly with real money.
 - Jumping to a big position size the moment paper trading goes well.
+
+![Bar comparison showing that testing only 10 trades proves nothing, while testing 30 or more trades gives a reliable sample.](/diagrams/practice-with-paper-trading-4.svg)
 
 ## ✅ Key takeaways
 - Paper trade first — real prices, fake money, zero risk.

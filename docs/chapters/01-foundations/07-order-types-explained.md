@@ -55,6 +55,16 @@ These help you exit with a plan instead of watching the screen all day.
 - **Bracket order** — one order that sets your entry + stop-loss + target *together*.
 - **Cover order** — an entry order that *forces* you to attach a stop-loss.
 
+![Flow diagram of a market order: you place the order, it is sent instantly, it fills right away, but the price may slip a little.](/diagrams/order-types-explained-1.svg)
+
+![Flow diagram of a limit order: you set your price, the order waits in the market, and it either fills at your price or does not fill at all.](/diagrams/order-types-explained-2.svg)
+
+![Flow diagram of an SL-Market stop-loss: once the trigger price is hit it sells at the market price for a fast exit, but the price may slip.](/diagrams/order-types-explained-3.svg)
+
+![Flow diagram of an SL-Limit stop-loss: once the trigger price is hit it sells at your limit price for price control, but it may not fill in a fast fall.](/diagrams/order-types-explained-4.svg)
+
+![Flow diagram of a bracket order: you set the entry price, attach a stop-loss, attach a target, and it all becomes one combined order.](/diagrams/order-types-explained-5.svg)
+
 ## 🔍 Example
 You want to buy 10 shares of a company trading near ₹100.
 
@@ -64,11 +74,7 @@ You want to buy 10 shares of a company trading near ₹100.
 - For 10 shares, the most you can lose is about **₹50.**
 - You also place a **target at ₹110**, so if price rises you book ₹10 per share profit.
 
-```
- Sell (target)  ₹110  ┐  profit zone
- Buy (entry)    ₹100  ┤
- Stop-loss      ₹95   ┘  loss capped here
-```
+![Risk/reward diagram of the trade: buy limit entry at ₹100, stop-loss at ₹95 below it, and target at ₹110 above it, giving a 1:2 risk-to-reward ratio.](/diagrams/order-types-explained-6.svg)
 
 You now have a clear plan before the trade even starts.
 
@@ -78,6 +84,8 @@ You now have a clear plan before the trade even starts.
 - Setting a stop-loss *too tight* (like ₹99.5) so normal wiggles kick you out.
 - Buying first and *thinking about* a stop-loss later — by then the loss is already large.
 - Confusing SL-Market and SL-Limit, then wondering why the SL-Limit did not fill in a fast fall.
+
+![Price line diagram showing a stop-loss set too tight at ₹99.5: normal price wiggles dip just below it, stopping the trade out, right before the price recovers and moves higher.](/diagrams/order-types-explained-7.svg)
 
 ## ✅ Key takeaways
 - **Market order** = instant fill, price not guaranteed.

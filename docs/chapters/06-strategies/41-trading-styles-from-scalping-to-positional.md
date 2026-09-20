@@ -46,6 +46,14 @@ Each style asks for a different amount of you.
 - Swing and positional give you hours or days to decide. Mistakes are slower and easier to fix.
 - Most calm beginners do better starting slow.
 
+![Illustrative price path for scalping showing several short round-trip buy-sell trades within one morning](/diagrams/trading-styles-from-scalping-to-positional-1.svg)
+
+![Illustrative price path for intraday trading showing one trade opened near market open and closed before the close, with no overnight gap](/diagrams/trading-styles-from-scalping-to-positional-2.svg)
+
+![Price path for Ravi's swing trade: bought at ₹100, held four days, with the planned ₹110 target and ₹95 stop-loss marked as reference lines](/diagrams/trading-styles-from-scalping-to-positional-3.svg)
+
+![Illustrative price path for positional trading showing one trade held and gradually rising over six months](/diagrams/trading-styles-from-scalping-to-positional-4.svg)
+
 ## 🔍 Example
 Meet Ravi. He has a full-time job from 9 to 6. He cannot watch charts all day.
 
@@ -55,14 +63,9 @@ Meet Ravi. He has a full-time job from 9 to 6. He cannot watch charts all day.
 
 Ravi buys a share at ₹100. His plan: hold a few days, sell near ₹110, and exit at ₹95 if it falls (his stop-loss — the safety price where he accepts a small loss). After four days it reaches ₹109. He sells. Small, calm, done.
 
-```
-Style     Hold time    Screen time   Feels like
---------  -----------  ------------  ----------
-Scalp     seconds/min  all day       sprint
-Intraday  one day      market hours  fast run
-Swing     days/weeks   1-2 checks    steady jog
-Position  weeks+       rare checks   long walk
-```
+![Risk-reward bracket for Ravi's trade: entry at ₹100, stop-loss at ₹95, target near ₹110, a 1:2.0 risk-to-reward ratio](/diagrams/trading-styles-from-scalping-to-positional-5.svg)
+
+![Bar comparison of the four trading styles by holding time, from scalping's seconds-to-minutes up to positional's weeks-to-months-or-more](/diagrams/trading-styles-from-scalping-to-positional-6.svg)
 
 ## ⚠️ Common mistakes
 - Choosing scalping because a video made it look easy and rich.

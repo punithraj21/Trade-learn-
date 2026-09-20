@@ -52,22 +52,27 @@ This means looking at two timeframes together.
 - Use a **lower** timeframe to time your exact entry.
 - Match the timeframe to your style. A swing trader [holds trades for days] watches D1 and H4. A scalper [holds trades for minutes] watches M1 to M5.
 
+![A line chart drawn from six closing prices only, forming one simple upward line with no highs, lows, or wicks shown.](/diagrams/chart-types-and-timeframes-1.svg)
+
+![A candlestick chart of six candles, hollow-bodied with a wick when price closed higher and solid-filled with a wick when price closed lower.](/diagrams/chart-types-and-timeframes-2.svg)
+
+![A higher-timeframe candlestick view with five large, steadily rising candles, illustrating a calmer trend with less noise.](/diagrams/chart-types-and-timeframes-3.svg)
+
+![A lower-timeframe candlestick view with twelve small, choppy candles zigzagging up and down, illustrating more noise and more false signals.](/diagrams/chart-types-and-timeframes-4.svg)
+
 ## 🔍 Example
 Suppose you look at Stock XYZ, trading at ₹500.
 
 Top-down steps:
 
-```
-D1 chart  → trend is UP (higher highs)
-      |
-      v
-H1 chart → wait for a small dip, then entry
-```
-
 - On the **daily (D1)** chart, price keeps making higher highs. Trend is up. Your bias is "buy the dips".
 - You switch to the **1-hour (H1)** chart to time it. Price dips from ₹500 to ₹490, then starts rising again.
 - You enter near ₹490, in the same direction as the daily trend.
 - Because the big picture agreed with your small entry, the trade had a cleaner backdrop. (It can still lose — always use a stop-loss.)
+
+![A four-step flow diagram: D1 shows higher highs confirming an uptrend, the bias is to buy the dips, the H1 chart dips toward ₹490, then the entry is taken near ₹490 in the direction of the daily trend.](/diagrams/chart-types-and-timeframes-5.svg)
+
+![An H1 price line for Stock XYZ starting near ₹500, dipping to ₹490 (marked as the entry point), then rising again.](/diagrams/chart-types-and-timeframes-6.svg)
 
 ## ⚠️ Common mistakes
 - Staring only at a 1-minute chart. Too much noise, too many false signals.
@@ -75,6 +80,8 @@ H1 chart → wait for a small dip, then entry
 - Trusting Heikin-Ashi prices for exact entries — it hides real prices.
 - Jumping between five timeframes and getting confused. Two is enough.
 - Picking a timeframe that does not match your free time and style.
+
+![A price line trending down overall, with a marked buy entry taken on a small bounce against the downtrend that is then stopped out lower.](/diagrams/chart-types-and-timeframes-7.svg)
 
 ## ✅ Key takeaways
 - Candlestick charts are the best default for reading price action.

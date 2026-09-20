@@ -47,14 +47,12 @@ A growing shop is better than a shrinking one.
 - **Revenue growth** = are total sales growing over years? Rising is good.
 - **Dividend yield** = yearly dividend ÷ share price. It shows the cash income you get, like rent on a house.
 
+![Bar chart comparing the three concrete ratio benchmarks named in this chapter: P/B below 1 can look cheap, ROE above 15% is often seen as healthy, and Debt-to-Equity below 1 is usually comfortable.](/diagrams/key-financial-ratios-1.svg)
+
 ## 🔍 Example
 A company's share price is ₹200. Its EPS (yearly profit per share) is ₹10.
 
-```
-P/E = Price / EPS
-P/E = 200 / 10
-P/E = 20
-```
+![Bar comparison of the P/E example: share price ₹200 against EPS ₹10, giving a P/E of 20.](/diagrams/key-financial-ratios-2.svg)
 
 - This means you pay ₹200 today for ₹10 of yearly profit.
 - So you pay for **20 years** of current earnings.

@@ -56,6 +56,14 @@ Reading price slowly changes how you behave.
 - You stop pressing buttons out of boredom — less **overtrading** (overtrading = taking too many trades for no good reason).
 - Over time this becomes **discipline** and **consistency**. It is not just about the chart. It is about you.
 
+![A steadily rising price line over five days, illustrating a trend as a clear one-way move.](/diagrams/why-price-action-matters-1.svg)
+
+![A price line that rises for three days then flips downward, with the turning point marked, illustrating a reversal.](/diagrams/why-price-action-matters-2.svg)
+
+![A price line breaking above a resistance level then quickly falling back below it, illustrating a false breakout.](/diagrams/why-price-action-matters-3.svg)
+
+![A price line bouncing sideways between a support and resistance level over six days, illustrating a ranging market.](/diagrams/why-price-action-matters-4.svg)
+
 ## 🔍 Example
 Imagine a vegetable in a bazaar priced at ₹100.
 
@@ -65,17 +73,9 @@ Imagine a vegetable in a bazaar priced at ₹100.
 
 You did not need any formula. The price itself told you who was winning each day.
 
-```
-120 |        *
-115 |       * *      *
-110 |      *   *----*
-105 |     *
-100 | *--*
-    +------------------
-     Mon    Tue    Wed
-```
-
 Same price of ₹110 can mean two things — falling on Tuesday, rising on Wednesday. Same price, different scenarios. That is why you read the *movement*, not just the number.
+
+![A price line moving from ₹100 to ₹120 on Monday, slipping to ₹110 on Tuesday, then climbing to ₹115 on Wednesday, matching the vegetable price example.](/diagrams/why-price-action-matters-5.svg)
 
 ## ⚠️ Common mistakes
 - Trusting an indicator's opinion over what price is clearly doing.
@@ -83,6 +83,8 @@ Same price of ₹110 can mean two things — falling on Tuesday, rising on Wedne
 - Chasing a breakout without waiting to see if it holds (false breakouts trap beginners).
 - Trading from emotion — jumping in because you feel excited, not because price gave a signal.
 - Thinking you must trade every day. No clear signal means no trade.
+
+![A price line breaking above resistance where a trader buys right at the top, then price falls back sharply, illustrating the mistake of chasing a false breakout.](/diagrams/why-price-action-matters-6.svg)
 
 ## ✅ Key takeaways
 - Price is the most honest, real-time view of the market.

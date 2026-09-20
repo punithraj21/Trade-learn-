@@ -59,19 +59,26 @@ A simple tool for people who trade within one day.
 - Rough idea: price above VWAP = buyers in control; price below = sellers in control.
 - You do not need to master it now. Just know the name.
 
+![Bar chart comparing a busy day's tall volume bar against a quiet day's short volume bar, showing that bar height reflects how many shares traded](/diagrams/volume-analysis-1.svg)
+
+![Bar chart of five days where both the price (shown in each bar's label) and the volume bar height rise together, illustrating a healthy uptrend](/diagrams/volume-analysis-2.svg)
+
+![Bar chart of five days where price keeps rising but the volume bars shrink each day, illustrating the warning sign of a move running out of fuel](/diagrams/volume-analysis-3.svg)
+
+![Bar chart of five days where price falls while volume bars stay high and grow, illustrating strong selling pressure](/diagrams/volume-analysis-4.svg)
+
+![Bar chart of a rising price move over four days followed by one much taller volume bar on the fifth day, illustrating a volume spike and possible climax](/diagrams/volume-analysis-5.svg)
+
+![Intraday price line crossing above and below a VWAP overlay line, labelled to show buyers in control above VWAP and sellers in control below it](/diagrams/volume-analysis-6.svg)
+
 ## 🔍 Example
 Two stocks both break above ₹100 resistance today. Watch the volume.
-
-```
- Stock A (real)        Stock B (fake)
- price: 100 -> 105     price: 100 -> 105
- volume bar:  █████    volume bar:  █
- (huge green bar)      (tiny bar)
-```
 
 - **Stock A:** breaks ₹100 with a big green volume bar. Many buyers agree. The breakout has fuel and is more likely to hold.
 - **Stock B:** breaks ₹100 but on a tiny bar. Almost no one is buying. This move is weak and often falls back below ₹100 — a fakeout that traps buyers.
 - Lesson: same price move, very different meaning. The volume bar told the truth.
+
+![Bar chart comparing Stock A and Stock B, both breaking above ₹100 resistance, where Stock A shows a huge volume bar and Stock B shows a tiny volume bar](/diagrams/volume-analysis-7.svg)
 
 ## ⚠️ Common mistakes
 - **Looking only at price** and ignoring the volume bars below the chart.
@@ -79,6 +86,8 @@ Two stocks both break above ₹100 resistance today. Watch the volume.
 - Thinking any single tall bar always means "buy" — a spike can also mark a top (exhaustion).
 - Ignoring the warning when **price rises but volume keeps falling** day after day.
 - Comparing volume to nothing. Always compare to the recent average, not to one random day.
+
+![Price line breaking above ₹100 resistance on low volume, then falling back below it, showing buyers getting trapped by a fakeout](/diagrams/volume-analysis-8.svg)
 
 ## ✅ Key takeaways
 - Volume = how many people traded — the conviction and fuel behind a move.

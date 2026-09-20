@@ -51,16 +51,14 @@ A retest is a second chance, and often a safer one.
 - If price touches it and holds, then moves up again, that is a good sign the breakout is real.
 - Like knocking on a door to check it is truly locked before you walk away.
 
+![A price line testing ₹100 resistance several times, then closing at ₹104 with follow-through candles continuing higher — a real breakout.](/diagrams/breakouts-retests-and-fakeouts-1.svg)
+
+![A price line poking just above ₹100 to ₹102, then quickly reversing back down to ₹96 — a fakeout that traps eager buyers.](/diagrams/breakouts-retests-and-fakeouts-2.svg)
+
+![A price line breaking out to ₹104, pulling back to retest ₹100 where it holds as new support, then continuing up to ₹105.](/diagrams/breakouts-retests-and-fakeouts-3.svg)
+
 ## 🔍 Example
 Stock XYZ keeps stopping at **₹200**. It cannot go higher for weeks.
-
-```
-Resistance ₹200 ─────┬──── (breakout candle closes ₹208)
-                     │
-   price rises  ●●●●●┘        big volume day
-   retest       ●●● ↓  back to ₹200, holds
-   continue     ●●●● ↑  moves up again
-```
 
 - Day 1: A strong candle closes at **₹208** on high volume. That is a breakout.
 - You do NOT chase the first candle. Chasing = buying in a hurry at a high price.
@@ -69,12 +67,16 @@ Resistance ₹200 ─────┬──── (breakout candle closes ₹208)
 - **Stop** (your exit if wrong) goes just **back inside**, say ₹196.
 - If price falls below ₹196, the breakout failed — you exit small and safe.
 
+![A price line for stock XYZ testing ₹200 resistance for weeks, closing at ₹208 on high volume (Day 1), retesting and holding at ₹200 (Day 3), then continuing up, with the entry near ₹200 and stop marked at ₹196.](/diagrams/breakouts-retests-and-fakeouts-4.svg)
+
 ## ⚠️ Common mistakes
 - **Chasing the first candle** — buying the instant price pokes past, before it closes.
 - **Ignoring volume** — a breakout with few buyers often fails.
 - **No stop-loss** — a fakeout can turn into a big loss without a stop.
 - **Confusing a wick with a close** — price touching the level is not the same as closing past it.
 - **Refusing to wait** — the retest may come; patience often gives a tighter, safer entry.
+
+![A three-candle sequence: a flat candle near ₹98, then a candle with a long upper wick poking to ₹103 but closing back down at ₹99, then a falling candle to ₹95 — chasing the wick above the level instead of waiting for the close leads straight into the trap.](/diagrams/breakouts-retests-and-fakeouts-5.svg)
 
 ## ✅ Key takeaways
 - A breakout needs a **close** past the level, not just a touch.

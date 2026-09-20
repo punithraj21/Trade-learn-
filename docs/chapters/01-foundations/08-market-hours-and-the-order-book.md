@@ -60,15 +60,16 @@ These two words tell you how "busy" a stock is.
 - In a liquid stock you enter and exit quickly, near the price you see.
 - **Slippage** [the difference between the price you expected and the price you actually got] is small in liquid stocks and large in thin ones.
 
+![A five-step flow diagram of the trading day: pre-open from 9:00 to 9:15am, market opens at 9:15am, the trading session runs, the market closes at 3:30pm, then it stays closed until the next session.](/diagrams/market-hours-and-the-order-book-1.svg)
+
+![A bar comparison showing a narrow ₹1 spread (bid ₹100 / ask ₹101, short green bar) next to a wider ₹3 spread (bid ₹200 / ask ₹203, taller red bar), showing that a bigger bid-ask gap costs more to trade.](/diagrams/market-hours-and-the-order-book-2.svg)
+
+![A bar comparison showing a liquid, high-volume stock with small illustrative slippage next to a thin, low-volume stock with large illustrative slippage.](/diagrams/market-hours-and-the-order-book-3.svg)
+
 ## 🔍 Example
 Imagine the order book for one share of "ABC Ltd."
 
-```
-   BUYERS (bids)   |   SELLERS (asks)
-   ---------------- | ----------------
-   ₹100  (50 sh)   |   ₹101  (40 sh)
-   ₹ 99  (80 sh)   |   ₹102  (70 sh)
-```
+![An order book snapshot for ABC Ltd. with a green bar for the best bid (₹100) and a red bar for the best ask (₹101), with the ₹1 spread between them labelled.](/diagrams/market-hours-and-the-order-book-4.svg)
 
 - The **bid** is ₹100 (the best price a buyer offers).
 - The **ask** is ₹101 (the cheapest a seller offers).

@@ -54,6 +54,16 @@ You do not have to sell all your shares at once.
 - Trail the stop on the rest, so a big move can still reward you.
 - This calms your mind — you have already "won" a little.
 
+![Price rising from an entry of ₹100 to a target of ₹110, with an exit marker showing the trade closed once the target price was hit.](/diagrams/when-to-exit-a-trade-1.svg)
+
+![Price falling from an entry of ₹100 down to a stop-loss of ₹95, with an exit marker showing the trade closed at once when the stop was hit.](/diagrams/when-to-exit-a-trade-2.svg)
+
+![Price entered at ₹100 breaking below a ₹98 setup level before reaching either the ₹110 target or the ₹95 stop, with an exit marker showing the trade closed early at ₹97 because the entry idea broke.](/diagrams/when-to-exit-a-trade-3.svg)
+
+![An illustrative price path climbing in steps from ₹100 to ₹120 with a trailing stop line that is raised behind it at each step, from ₹95 up to ₹113, and never moves down.](/diagrams/when-to-exit-a-trade-4.svg)
+
+![Flow diagram of scaling out: first target hit, sell part of the position, trail the stop on the rest, then let the winner run.](/diagrams/when-to-exit-a-trade-5.svg)
+
 ## 🔍 Example
 You buy a share at 100. You plan first:
 
@@ -63,16 +73,12 @@ You buy a share at 100. You plan first:
 
 Now watch what happens:
 
-```
-Price 100 ── stop 95   (start)
-Price 108 ── stop 104  (trail up: profit locked)
-Price 112 ── you exit  (won ₹12 per share)
-```
-
 - Price rises to ₹108. You trail your stop up to ₹104.
 - Now, even if price falls back, you keep about ₹4 profit. You cannot lose here.
 - Price runs on to ₹112. You exit. You made ₹12, more than your first ₹10 target.
 - Because you trailed, the winner was allowed to grow.
+
+![Price path from entry at ₹100 trailing up to ₹108, where the stop is raised from ₹95 to ₹104, then on to an exit at ₹112 for a ₹12 profit per share.](/diagrams/when-to-exit-a-trade-6.svg)
 
 ## ⚠️ Common mistakes
 - Moving the stop-loss *further away* to avoid taking a loss. This turns a small loss into a big one.
@@ -80,6 +86,8 @@ Price 112 ── you exit  (won ₹12 per share)
 - Having no target or stop — just "hoping". Hope is not a plan.
 - Holding a losing trade because "it will come back". Sometimes it does not.
 - Deciding the exit *after* you enter, when emotion is high and thinking is poor.
+
+![Price falling from entry at ₹100 past a planned stop of ₹95 (a ₹5 loss) down to ₹85, showing how moving the stop-loss further away turns that small loss into a ₹15 loss.](/diagrams/when-to-exit-a-trade-7.svg)
 
 ## ✅ Key takeaways
 - Profit and loss become real only at the exit.

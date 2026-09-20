@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" width="360" height="280" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect x="0.5" y="0.5" width="359" height="279" rx="12" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+  <text x="20" y="28" font-size="15" font-weight="600" fill="#0b0b0b">Losing trades are normal</text>
+  <text x="20" y="44" font-size="12" fill="#52514e">A trader can lose on 4 of 10 trades and still do fine</text>
+  <g transform="translate(0, 44)"><circle cx="180" cy="164" r="70" fill="none" stroke="#d03b3b" stroke-width="26" stroke-dasharray="175.9 263.9" stroke-dashoffset="0.0" transform="rotate(-90 180 164)"/><circle cx="180" cy="164" r="70" fill="none" stroke="#0ca30c" stroke-width="26" stroke-dasharray="263.9 175.9" stroke-dashoffset="-175.9" transform="rotate(-90 180 164)"/><circle cx="180" cy="164" r="55" fill="#fcfcfb"/><text x="180" y="169" font-size="16" font-weight="700" text-anchor="middle" fill="#0b0b0b">4 of 10</text><rect x="90" y="255" width="10" height="10" rx="2" fill="#d03b3b"/><text x="106" y="264" font-size="11" fill="#52514e">Losing trades — 40%</text><rect x="90" y="273" width="10" height="10" rx="2" fill="#0ca30c"/><text x="106" y="282" font-size="11" fill="#52514e">Winning trades — 60%</text></g>
+</svg>

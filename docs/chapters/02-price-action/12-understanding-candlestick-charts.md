@@ -53,6 +53,12 @@ Every candle tells a small story about the crowd.
 - Candles hint at who is in control, the strength of the move, and the mood of the market — fear, greed, or "not sure yet."
 - Read the candles, not just the line of the chart.
 
+![A single large candle labelled with its open, high, low and close prices, plus a legend explaining the hollow-body-means-up and wick-shows-high/low convention.](/diagrams/understanding-candlestick-charts-1.svg)
+
+![Two candles side by side: a green candle whose close is above its open (bullish, buyers stronger) and a red candle whose close is below its open (bearish, sellers stronger).](/diagrams/understanding-candlestick-charts-2.svg)
+
+![Two candles contrasted: one with a big body and short wicks representing strong momentum, and one with a small body and a long lower wick representing rejection or indecision.](/diagrams/understanding-candlestick-charts-3.svg)
+
 ## 🔍 Example
 Say Reliance shares trade for one day. On a daily chart this is ONE candle.
 
@@ -65,19 +71,11 @@ Close (₹115) is above open (₹100), so it is a **green candle**. Buyers won t
 
 A tiny sketch of that candle:
 
-```
- |     <- wick up to high 120
- |
-[###]  <- body top = close 115
-[###]
-[###]  <- body bottom = open 100
- |
- |     <- wick down to low 95
-```
-
 - The body runs from ₹100 to ₹115 (a fair-sized body = decent buying strength).
 - The top wick shows price touched ₹120 but could not hold there.
 - The bottom wick shows sellers tried ₹95 but failed.
+
+![The Reliance daily candle labelled with its actual open (Rs 100), high (Rs 120), low (Rs 95) and close (Rs 115), showing a hollow bullish body with wicks reaching both the high and the low.](/diagrams/understanding-candlestick-charts-4.svg)
 
 ## ⚠️ Common mistakes
 - Thinking green always means "buy now" and red means "sell now." A colour is history, not a signal.

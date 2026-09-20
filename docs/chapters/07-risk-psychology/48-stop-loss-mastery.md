@@ -52,14 +52,16 @@ Use a real order, not a promise to yourself.
 - **Mental stop:** a level you keep only in your head. In real life, fear makes you ignore it.
 - Always prefer a hard stop. Machines do not panic. Humans do.
 
+![Flow diagram of the core stop-loss idea: decide your stop, enter the trade, and if price moves against you, the stop is hit and you exit with the loss capped.](/diagrams/stop-loss-mastery-1.svg)
+
+![Price line showing a long trade: price forms a swing low at ₹95 (support), the trader buys at ₹100 after the bounce, and the stop sits at ₹94 just below support in case the trade is wrong.](/diagrams/stop-loss-mastery-2.svg)
+
+![Price line showing a fixed stop: buying at ₹100 and exiting at a set 5% loss, which lands the stop at ₹95.](/diagrams/stop-loss-mastery-3.svg)
+
+![Illustrative price line showing a trailing stop rising from ₹90 to ₹106 as price makes new highs from ₹100 to ₹116, holding flat during dips and never moving down.](/diagrams/stop-loss-mastery-4.svg)
+
 ## 🔍 Example
 You buy a share at **₹100**. Support sits at **₹95**, so you place your stop just below, at **₹94**.
-
-```
-   Buy here ---> 100
-                  |
-   Stop below --> 94   (just under support at 95)
-```
 
 - Your risk per share is ₹100 − ₹94 = **₹6**.
 - You decide to risk only **₹600** total on this trade.
@@ -67,12 +69,18 @@ You buy a share at **₹100**. Support sits at **₹95**, so you place your stop
 - If price hits ₹94, you are out. Loss = ₹600. Planned and small.
 - Notice: you kept risk small by buying fewer shares, NOT by moving the stop closer.
 
+![Price line showing the trade entering at ₹100 with support at ₹95 and the stop placed at ₹94, just under support.](/diagrams/stop-loss-mastery-5.svg)
+
+![Bar chart comparing the ₹6 risk per share against the ₹600 total planned risk on 100 shares.](/diagrams/stop-loss-mastery-6.svg)
+
 ## ⚠️ Common mistakes
 - **Moving the stop wider** when price falls, hoping it comes back. This is the cardinal sin. A small loss becomes a huge one.
 - Using a **mental stop** and then ignoring it when fear hits.
 - Placing the stop too tight, so normal noise triggers it again and again.
 - Placing it at a round number instead of below real support.
 - Trading with **no stop at all** — one bad day can wipe out weeks of gains.
+
+![Price line showing the cardinal sin: price falls from ₹100 through the planned stop at ₹94, but instead of exiting, the stop is dragged down to ₹85 as price keeps falling, turning a small planned loss into a much larger one.](/diagrams/stop-loss-mastery-7.svg)
 
 ## ✅ Key takeaways
 - Decide your exit before you enter, never after.

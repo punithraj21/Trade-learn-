@@ -52,6 +52,12 @@ Look for two things together:
 - So a zone gets **weaker** every visit. After 2–3 tests, treat it as tired.
 - Difference from plain support/resistance: S/R is one **line** you touch many times; a zone is an **area (a box)** drawn at the **origin** of a strong move.
 
+![A price path building a quiet base, then shooting up fast; the base is boxed as a demand zone, and price returns later and bounces off it again, acting like support.](/diagrams/supply-and-demand-zones-1.svg)
+
+![A price path building a quiet base, then dropping down fast; the base is boxed as a supply zone, and price returns later and falls from it again, acting like resistance.](/diagrams/supply-and-demand-zones-2.svg)
+
+![A bar chart showing zone strength falling from strong when fresh and untested, to weaker after one test, weak after two tests, and tired after three tests.](/diagrams/supply-and-demand-zones-3.svg)
+
 ## 🔍 Example
 Reliance is trading near ₹1000.
 - For a few candles it sits quietly between **₹1000 and ₹1010**. This is the base.
@@ -64,12 +70,9 @@ Days later, price falls back down toward ₹1010.
 - You may buy near ₹1005, and place a **stop-loss** (an auto-exit if you are wrong) just below the box, say ₹995.
 - Risk is small (about ₹10), reward can be larger (back toward ₹1080). This is good **risk-reward**.
 
-```
-₹1080  ┌── strong move up
-       │
-₹1010 ┌┴┐  ← demand zone (the box)
-₹1000 └─┘  base, then price returns to test it
-```
+![Reliance builds a quiet base between ₹1000 and ₹1010, jumps fast to ₹1080, then days later returns and tests the boxed demand zone near ₹1005.](/diagrams/supply-and-demand-zones-4.svg)
+
+![A risk-reward bracket for the Reliance trade plan: buy near ₹1005, stop-loss at ₹995 (about ₹10 of risk), target back toward ₹1080, giving roughly 1:7.5 risk-reward.](/diagrams/supply-and-demand-zones-5.svg)
 
 ## ⚠️ Common mistakes
 - Drawing a huge box. Keep it tight — only the quiet base area.
@@ -77,6 +80,8 @@ Days later, price falls back down toward ₹1010.
 - Trusting old, tired zones tested many times.
 - Ignoring the trend. A zone works better when it agrees with the overall direction.
 - Skipping the stop-loss. A zone is a *probability*, not a promise. Price can break through.
+
+![A price path approaching a demand zone: one entry marked as chasing in too early, above the zone, versus another marked as waiting for price to enter the zone and show a reversal before buying.](/diagrams/supply-and-demand-zones-6.svg)
 
 ## ✅ Key takeaways
 - Demand zone = strong buyers below = acts like support.

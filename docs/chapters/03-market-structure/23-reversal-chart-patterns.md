@@ -45,19 +45,21 @@ These form after prices have fallen for a while. "Bullish" means pointing up. Th
 - The pattern **completes only when the neckline breaks with a close** past it. This is called "confirmation".
 - A rough target uses a **measured move**: measure the height of the pattern, then project that same distance from the break point.
 
+![A Head and Shoulders pattern: a left shoulder peak, a higher head peak, then a right shoulder peak near the left shoulder's height, with a dashed neckline under the two dips between them and a break down toward a measured target.](/diagrams/reversal-chart-patterns-1.svg)
+
+![A Triple Top pattern: three peaks in a row at the same height, each failing to push higher, with a dashed neckline under the dips between them and a break below it.](/diagrams/reversal-chart-patterns-2.svg)
+
+![A Rounding Top pattern: price rises and falls in a slow, smooth dome shape with no single sharp peak, showing momentum fading gradually.](/diagrams/reversal-chart-patterns-3.svg)
+
+![An Inverse Head and Shoulders pattern: a left low, a lower head low, then a right low near the left low's height, with a dashed neckline over the two bounces between them and a break up toward a measured target.](/diagrams/reversal-chart-patterns-4.svg)
+
+![A Double Bottom pattern: two lows at the same level forming a W shape, with a dashed neckline over the bounce between them and a break above it toward a target.](/diagrams/reversal-chart-patterns-5.svg)
+
+![A Rounding Bottom pattern: price falls and rises in a slow, smooth bowl shape with no single sharp low, showing selling pressure drying up gradually.](/diagrams/reversal-chart-patterns-6.svg)
+
 ## 🔍 Example
 
 A stock rises, then draws this Double Top:
-
-```
-   Top1     Top2
-   ₹100     ₹100
-    /\      /\
-   /  \    /  \
---/----\--/----\----  neckline ₹90
- /      \/      \
-                 \  break below ₹90 (close)
-```
 
 - Both tops stall near ₹100. The dip between them bottoms at ₹90 (the neckline).
 - The stock falls back to ₹90 and **closes at ₹88** — the neckline is broken.
@@ -65,12 +67,16 @@ A stock rises, then draws this Double Top:
 - Measured target = ₹90 − ₹10 = **₹80**.
 - If sellers are strong (high **volume**, the number of shares traded), the signal is more trustworthy.
 
+![A Double Top pattern for the worked example: two peaks at ₹100 with a dip to the ₹90 neckline between them, then a close at ₹88 breaking the neckline and a measured target of ₹80.](/diagrams/reversal-chart-patterns-7.svg)
+
 ## ⚠️ Common mistakes
 - **Trading too early.** Guessing a top before the neckline breaks is like "catching a falling knife" — you can get hurt. Wait for the close.
 - **Ignoring volume.** A break with low volume often fails. Strong moves need many traders behind them.
 - **Seeing shapes everywhere.** Not every wiggle is a pattern. Be patient and honest.
 - **Forgetting these fail often.** Even a clean pattern can reverse back. Always use a **stop-loss** (a fixed exit price that limits your loss).
 - **Skipping support/resistance.** Combine patterns with known price levels for a fuller picture.
+
+![A price line forming a double-top shape where a trader shorts the second top before the neckline breaks, gets stopped out when price bounces higher, and the real confirmed break only comes later when price closes below the neckline.](/diagrams/reversal-chart-patterns-8.svg)
 
 ## ✅ Key takeaways
 - Reversal patterns warn a trend may be ending — they are clues, not promises.

@@ -49,21 +49,23 @@ Two candles whose highs (or lows) reach almost the exact same price.
 - **Tweezer top**: two matching highs = price was **rejected** (pushed back) at that level twice. Sellers are defending it.
 - **Tweezer bottom**: two matching lows = buyers keep defending that floor.
 
+![Candlestick diagram of a bearish engulfing pattern: a small green up candle followed by a larger red candle whose body fully swallows it.](/diagrams/multi-candlestick-patterns-1.svg)
+
+![Candlestick diagram of a harami pattern: a small candle sitting entirely inside the body of the previous larger candle, showing a pause.](/diagrams/multi-candlestick-patterns-2.svg)
+
+![Candlestick diagram of a morning star pattern: a big red candle, a small indecision candle, then a strong green candle reversing the move.](/diagrams/multi-candlestick-patterns-3.svg)
+
+![Candlestick diagram of a tweezer top: two candles reaching almost the same high, with the second candle turning back down.](/diagrams/multi-candlestick-patterns-4.svg)
+
 ## 🔍 Example
 Stock **ABC** falls for a week and lands on ₹100, a level where it stopped falling last month (support). You watch the daily candles:
-
-```
-   red    GREEN
-    |      |
-   [ ]   [   ]   <- green body wraps the red body
-    |      |
-  ₹100   ₹100
-```
 
 - Day 1: small red candle, close ₹101.
 - Day 2: big green candle, opens ₹100, closes ₹108 — it **engulfs** yesterday's red body.
 - This is a **bullish engulfing at support**. That is a much stronger signal than the same shape floating in the middle of nowhere.
 - You still **wait for confirmation** (proof): the next candle also closes higher, and volume (number of shares traded) is bigger than usual. Only then do you act, with a stop-loss (an auto-sell order to cap your loss) just below ₹100.
+
+![Candlestick diagram of stock ABC forming a bullish engulfing pattern at ₹100 support: a small red candle closing at ₹101, followed by a big green candle opening at ₹100 and closing at ₹108 that engulfs it.](/diagrams/multi-candlestick-patterns-5.svg)
 
 ## ⚠️ Common mistakes
 - Trading a pattern in "the middle of nowhere" — away from any support or resistance. There it means little.

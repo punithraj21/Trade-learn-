@@ -54,24 +54,25 @@ When you sell for a profit, you may owe tax on that gain.
 - So holding longer can mean less tax. Frequent trading usually means more tax and more fees.
 - Keep good records of every buy and sell. A tax professional can help you get it right.
 
+![Flow diagram of a trade showing brokerage and fees attaching at both the buy order and the sell order, with the holding period in between.](/diagrams/costs-taxes-and-slippage-1.svg)
+
+![Diagram showing the ask price (₹101, where you buy) above the bid price (₹99, where you sell), with the gap between them shaded as the spread you pay.](/diagrams/costs-taxes-and-slippage-2.svg)
+
+![Diagram of an order placed at about ₹500 in a fast-moving market, with the price drifting up to ₹506 by the time it fills, illustrating slippage.](/diagrams/costs-taxes-and-slippage-3.svg)
+
+![Bar comparison showing a short-term gain taxed at a higher rate and a long-term gain taxed at a lower rate.](/diagrams/costs-taxes-and-slippage-4.svg)
+
 ## 🔍 Example
 Ravi buys shares worth ₹10,000 and sells them the same week for ₹10,300. That looks like a ₹300 profit.
 
-```
-Sale value ............. ₹10,300
-Buy value .............. ₹10,000
-Raw profit ............. ₹300
-
-Minus costs (rough):
-  Brokerage (both ways)   ₹40
-  STT + exchange + GST    ₹25
-  Stamp duty + DP         ₹10
-Total costs ............ ₹75
-
-Real profit ............ ₹225
-```
 - His true profit is ₹225, not ₹300. Costs took a quarter of it.
 - If Ravi made 20 quick trades like this a month, those ₹75 costs repeat 20 times. That is ₹1,500 gone in fees alone.
+
+![Bar chart walking through Ravi's trade: a raw profit of +₹300, then brokerage -₹40, STT/exchange/GST -₹25, and stamp duty/DP -₹10, ending at a real profit of ₹225.](/diagrams/costs-taxes-and-slippage-5.svg)
+
+![Donut chart showing Ravi's ₹300 raw profit split into ₹225 real profit (75%) and ₹75 of costs (25%).](/diagrams/costs-taxes-and-slippage-6.svg)
+
+![Bar comparison showing a single trade's ₹75 cost versus ₹1,500 in total costs from 20 similar trades in a month.](/diagrams/costs-taxes-and-slippage-7.svg)
 
 ## ⚠️ Common mistakes
 - Looking only at the price change and forgetting the fees.
@@ -79,6 +80,8 @@ Real profit ............ ₹225
 - Trading illiquid stocks and getting hit by wide spreads and slippage.
 - Ignoring tax until year-end, then having no records.
 - Taking a 1:1.2 reward trade — after costs, the small edge can vanish, so the reward may not be worth the risk.
+
+![Risk:reward diagram for a trade entering at ₹100 with a stop-loss at ₹95 and a target at ₹106, giving a 1:1.2 risk-reward ratio.](/diagrams/costs-taxes-and-slippage-8.svg)
 
 ## ✅ Key takeaways
 - Every trade has costs: brokerage, taxes, spread, and slippage.

@@ -53,6 +53,16 @@ This is the engine of your whole account.
 - Example: lose ₹1,000 four times (−₹4,000), win ₹5,000 once. You are still up ₹1,000.
 - So let winners breathe. Never let a winner turn into a loss.
 
+![Risk-reward bracket showing a fixed target exit: entry at ₹100, stop-loss at ₹95, target at ₹110, a 2R setup with a 1:2 risk-reward ratio](/diagrams/how-to-take-profits-1.svg)
+
+![Donut chart showing scaling out as a 50/50 split between shares sold at the first target and shares still riding in the open position](/diagrams/how-to-take-profits-2.svg)
+
+![Price line showing a trailing stop stepping up as price climbs to a new high, staying flat during a dip, then exiting the trade above entry once price turns down and hits the raised stop](/diagrams/how-to-take-profits-3.svg)
+
+![Price line showing the same rally handled two bad ways: a too-fearful trader sells at just +2% and misses the run to +30%, while a too-greedy trader holds on and rides the price all the way back down to breakeven](/diagrams/how-to-take-profits-4.svg)
+
+![Bar chart showing four ₹1,000 losses totaling −₹4,000 offset by one ₹5,000 win, netting +₹1,000 overall — why bigger winners than losers grows the account](/diagrams/how-to-take-profits-5.svg)
+
 ## 🔍 Example
 You buy **200 shares** of a company at **₹100**. Your risk (1R) is ₹5 per share (stop at ₹95). First target is ₹110 (that is 2R).
 
@@ -62,10 +72,7 @@ You buy **200 shares** of a company at **₹100**. Your risk (1R) is ₹5 per sh
 - Price turns and hits ₹113. You sell the last 100. Extra profit = 100 × ₹13 = **₹1,300**.
 - Total = **₹2,300**, and you were never at risk of a loss after the first target.
 
-```
-₹100 buy ──> ₹110 sell half ──> ₹120 up ──> ₹113 trail sells rest
- risk ₹5      book ₹1,000        ride         book ₹1,300
-```
+![Price line of the worked example: buy 200 shares at ₹100, sell 100 at ₹110 for +₹1,000 as the trailing stop moves from ₹95 to ₹105, price peaks at ₹120 and the stop is raised to ₹113, then price turns and exits the remaining 100 shares at ₹113 for +₹1,300](/diagrams/how-to-take-profits-6.svg)
 
 ## ⚠️ Common mistakes
 - No exit plan — you decide while emotional, and decide wrong.
@@ -73,6 +80,8 @@ You buy **200 shares** of a company at **₹100**. Your risk (1R) is ₹5 per sh
 - Selling too early out of fear, then chasing the same stock back in at a higher price.
 - Letting a winner round-trip into a loss because "it will come back".
 - Cutting winners fast but holding losers long — the exact opposite of what works.
+
+![Bar chart contrasting a winning trade cut short with a small locked-in gain against a losing trade left to run into a much bigger loss — the exact opposite of what works](/diagrams/how-to-take-profits-7.svg)
 
 ## ✅ Key takeaways
 - Write your target and stop **before** you buy.

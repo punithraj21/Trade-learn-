@@ -52,6 +52,12 @@ This is RSI's most useful trick. Take it slowly.
 - **Bullish divergence:** price makes a **lower low** (a new bottom), but RSI makes a **higher low**. The selling is losing power — a possible turn upward.
 - Divergence is a **warning**, not a guarantee. Wait for the price to confirm.
 
+![RSI oscillator on a 0-100 scale with the overbought (70), oversold (30), and 50 mood-line thresholds marked](/diagrams/rsi-relative-strength-index-1.svg)
+
+![Bearish divergence: price rises to a higher high (Peak 2) while the RSI line only reaches a lower high than its first peak](/diagrams/rsi-relative-strength-index-2.svg)
+
+![Bullish divergence: price falls to a lower low (Low 2) while the RSI line only falls to a higher low than its first trough](/diagrams/rsi-relative-strength-index-3.svg)
+
 ## 🔍 Example
 A stock rises over two weeks.
 
@@ -60,17 +66,10 @@ A stock rises over two weeks.
 
 Price went up. Momentum went down. That gap is **bearish divergence**.
 
-```
-Price:   /\        /\   <- higher high (₹110)
-        /  \      /
-       /    \____/
-RSI:    /\
-       /  \    /\        <- lower high (75 -> 68)
-      /    \__/  \
-```
-
 - Reading: buyers are running out of energy.
 - Smart move: do not rush to short (bet on a fall). **Wait** for price itself to break down — maybe close below a recent support level — before acting.
+
+![Worked example: price rises from a first peak of ₹100 (RSI 75) to a higher second peak of ₹110, but RSI only reaches 68 — a lower high, the same bearish divergence described above](/diagrams/rsi-relative-strength-index-4.svg)
 
 ## ⚠️ Common mistakes
 - **Selling the instant RSI hits 70** (or buying at 30). In a trend it can stay there a long time.
@@ -78,6 +77,8 @@ RSI:    /\
 - **Trading every divergence.** Many fade away. Always wait for price to agree.
 - **Changing the 14 setting** to chase perfect signals. Keep it simple as a beginner.
 - **Ignoring the trend.** RSI signals work best *with* the bigger trend, not against it.
+
+![RSI staying above the 70 overbought line for ten straight weeks during a strong trend, illustrating why selling at the first touch of 70 exits a good move too early](/diagrams/rsi-relative-strength-index-5.svg)
 
 ## ✅ Key takeaways
 - RSI (0–100) measures momentum — the strength behind a move.

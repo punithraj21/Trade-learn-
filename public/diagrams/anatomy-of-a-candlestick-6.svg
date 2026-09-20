@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect x="0.5" y="0.5" width="419" height="319" rx="12" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+  <text x="20" y="28" font-size="15" font-weight="600" fill="#0b0b0b">A Different Day — Spinning Top</text>
+  <text x="20" y="44" font-size="12" fill="#52514e">Open Rs 100, Close Rs 101, High Rs 112, Low Rs 90 — tiny body, huge wicks both ways</text>
+  <g transform="translate(0, 44)"><line x1="150.0" y1="52.7" x2="150.0" y2="183.3" stroke="#0ca30c" stroke-width="2"/><rect x="122.0" y="118.0" width="56" height="5.9" fill="#fcfcfb" stroke="#0ca30c" stroke-width="2" rx="2"/><line x1="178.0" y1="52.7" x2="188.0" y2="52.7" stroke="#898781" stroke-width="1"/>
+      <text x="196.0" y="56.7" font-size="11" text-anchor="start" fill="#52514e">High — 112</text><line x1="178.0" y1="183.3" x2="188.0" y2="183.3" stroke="#898781" stroke-width="1"/>
+      <text x="196.0" y="187.3" font-size="11" text-anchor="start" fill="#52514e">Low — 90</text><line x1="122.0" y1="118.0" x2="112.0" y2="118.0" stroke="#898781" stroke-width="1"/>
+      <text x="104.0" y="122.0" font-size="11" text-anchor="end" fill="#52514e">Close — 101</text><line x1="122.0" y1="123.9" x2="112.0" y2="123.9" stroke="#898781" stroke-width="1"/>
+      <text x="104.0" y="127.9" font-size="11" text-anchor="end" fill="#52514e">Open — 100</text><rect x="100" y="233" width="14" height="11" rx="1.5" fill="#fcfcfb" stroke="#0ca30c" stroke-width="1.5"/><text x="120" y="242" font-size="10.5" fill="#898781">Body (hollow = up)</text><line x1="245.8" y1="233" x2="245.8" y2="244" stroke="#0ca30c" stroke-width="1.5"/><text x="258.8" y="242" font-size="10.5" fill="#898781">Wick = high/low reach</text></g>
+</svg>

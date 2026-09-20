@@ -52,17 +52,20 @@ A **rectangle** = price moves sideways between a clear floor and ceiling inside 
 - It bounces between the same low and same high for a while.
 - Then it breaks out and the earlier trend usually continues.
 
+![A small rectangle-shaped pullback that tilts slightly against the trend after a sharp price pole, then breaks out in the same direction as the pole.](/diagrams/continuation-chart-patterns-1.svg)
+
+![A tiny triangle of narrowing price swings after a sharp price pole, squeezing to a point before breaking out in the same direction as the pole.](/diagrams/continuation-chart-patterns-2.svg)
+
+![An ascending triangle with a flat top (resistance) and a rising bottom of higher lows, breaking out upward.](/diagrams/continuation-chart-patterns-3.svg)
+
+![A descending triangle with a flat bottom (support) and a falling top of lower highs, breaking out downward.](/diagrams/continuation-chart-patterns-4.svg)
+
+![A symmetrical triangle where highs and lows squeeze together to a point, then price breaks out continuing the trend that came before it.](/diagrams/continuation-chart-patterns-5.svg)
+
+![A rectangle pattern bouncing between a flat floor and ceiling, then breaking out to continue the earlier uptrend.](/diagrams/continuation-chart-patterns-6.svg)
+
 ## 🔍 Example
 A stock jumps fast from ₹100 to ₹120. That ₹20 jump is the **flag pole**.
-
-```
-        /|  <- breakout up
-     ___/ |
-    /\  \ |
-   /  \__\|   <- small flag (rest)
-  /
- / <- flag pole (₹100 to ₹120)
-```
 
 - After the jump, price drifts down gently to ₹115, ₹113, ₹114. That drift is the **flag**.
 - Volume is low during this drift. People are just resting.
@@ -70,12 +73,16 @@ A stock jumps fast from ₹100 to ₹120. That ₹20 jump is the **flag pole**.
 - **Measured move target** = add the pole size (₹20) to the breakout point. So ₹117 + ₹20 = about ₹137 as a rough target.
 - You can place a **stop-loss** (an exit if you are wrong) just below the flag, say ₹112, to limit loss.
 
+![A flag pattern chart showing the price pole from ₹100 to ₹120, the drift down to ₹113, the breakout above ₹117, the stop-loss at ₹112, and the measured-move target near ₹137.](/diagrams/continuation-chart-patterns-7.svg)
+
 ## ⚠️ Common mistakes
 - **Jumping in early.** Wait for the breakout to actually happen. Do not guess.
 - **Ignoring volume.** A breakout on weak volume is less trustworthy.
 - **Trusting a false breakout.** Sometimes price pokes out, then falls back in. (See the previous chapter.) Wait for a close beyond the line, or a small retest.
 - **Forgetting the trend.** Continuation patterns work best with a clear trend before them. No trend = weak signal.
 - **No stop-loss.** Every trade can go wrong. Always plan your exit first.
+
+![A chart contrasting a bad early entry that chases a fake poke above the breakout line and gets stopped out, against a better entry that waits for a close and retest before the real breakout.](/diagrams/continuation-chart-patterns-8.svg)
 
 ## ✅ Key takeaways
 - Continuation patterns are rests, not turns — the trend usually continues.

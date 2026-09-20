@@ -57,17 +57,22 @@ A **derivative** is a product whose price comes from something else (like a stoc
 - Leverage can multiply your gains — but it multiplies your losses the same way.
 - These are advanced tools. Beginners should learn them much later, after lots of practice.
 
+![Donut diagram showing a stock as one small highlighted slice out of a company's total ownership, illustrating a share as a tiny piece of one company.](/diagrams/instruments-stocks-etfs-indices-derivatives-1.svg)
+
+![Flow diagram showing 50 companies bundled into 1 ETF unit that an investor buys in one purchase.](/diagrams/instruments-stocks-etfs-indices-derivatives-2.svg)
+
+![Bar chart comparing the number of companies each index tracks: Nifty 50 tracks 50 companies, Sensex tracks 30 companies.](/diagrams/instruments-stocks-etfs-indices-derivatives-3.svg)
+
+![Flow diagram showing how leverage works: a small deposit plus leverage controls a larger position, which multiplies gains or losses.](/diagrams/instruments-stocks-etfs-indices-derivatives-4.svg)
+
 ## 🔍 Example
 Riya has ₹10,000 to invest. She sees three choices:
 - **One stock:** she buys shares of a single company. If that company does well, she gains. If it stumbles, she alone feels it.
 - **One ETF:** she buys a Nifty 50 ETF. Her ₹10,000 now sits across 50 companies. One weak company barely moves her total.
 
-```
- Stock  → [ 1 company        ]  ← all eggs in one basket
- ETF    → [ 50 companies      ]  ← eggs spread out
-```
-
 For a beginner, the ETF gives a smoother, calmer ride while she learns.
+
+![Bar chart comparing Riya's two choices for her ₹10,000: a single stock spreads her money across 1 company, while a Nifty 50 ETF spreads it across 50 companies.](/diagrams/instruments-stocks-etfs-indices-derivatives-5.svg)
 
 ## ⚠️ Common mistakes
 - Trying futures and options first because they promise "fast money" — this is how beginners lose money quickly.

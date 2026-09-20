@@ -57,6 +57,8 @@ Never buy first and think later. Decide three numbers *before* you click buy.
 - Then check the **risk-reward** (how much you can lose versus how much you can gain).
   - Only take the trade if the reward is at least **twice** the risk. This is a 1:2 risk-reward.
 
+![Flow diagram of the three parts of a good entry: Setup (context), Trigger (signal), Confirmation (proof), then Entry (buy).](/diagrams/when-to-enter-a-trade-1.svg)
+
 ## 🔍 Example
 
 Stock ABC has bounced up from ₹100 three times. That ₹100 floor is your key level (support).
@@ -67,14 +69,11 @@ Stock ABC has bounced up from ₹100 three times. That ₹100 floor is your key 
 
 Now plan your numbers:
 
-```
-Entry:  ₹104
-Stop:   ₹100   (risk = ₹4 per share)
-Target: ₹112   (reward = ₹8 per share)
-Risk : Reward = 4 : 8 = 1 : 2  ✅
-```
-
 Risk is ₹4, reward is ₹8. That is 1:2. All boxes ticked, so you enter. If ABC had jumped straight to ₹115 with no pullback, you would *wait*, not chase.
+
+![Price chart of ABC bouncing off ₹100 support three times before a confirmed close at ₹104 (entry), with a ₹100 stop-loss and a ₹112 target.](/diagrams/when-to-enter-a-trade-2.svg)
+
+![Risk-reward bracket for the ABC trade: entry ₹104, stop-loss ₹100 (₹4 risk), target ₹112 (₹8 reward), a 1:2 ratio.](/diagrams/when-to-enter-a-trade-3.svg)
 
 ## ⚠️ Common mistakes
 - **Entering on a hunch** — buying because it "feels" like it will go up.
@@ -82,6 +81,8 @@ Risk is ₹4, reward is ₹8. That is 1:2. All boxes ticked, so you enter. If AB
 - **FOMO entries** — buying only because everyone online is excited.
 - **No stop-loss** — entering with no plan for being wrong.
 - **Ignoring risk-reward** — taking a trade where you risk ₹8 to make ₹4.
+
+![Bar chart contrasting a bad trade's ₹8 risk against its ₹4 reward, showing the risk far outweighs the reward.](/diagrams/when-to-enter-a-trade-4.svg)
 
 ## ✅ Key takeaways
 - A good entry needs setup + trigger + confirmation, together.

@@ -53,19 +53,24 @@ Most indicators belong to one of four groups.
 - **Volume** — shows how much trading is happening. Example: volume bars and **VWAP** (Volume Weighted Average Price — the average price weighted by volume).
 - Picking one from a couple of *different* families is smart. Two momentum tools just repeat the same story.
 
+![A price line climbing steadily while a moving-average overlay trails below it, always a step behind and catching up slowly — illustrating a lagging indicator confirming after the move has started.](/diagrams/introduction-to-indicators-1.svg)
+
+![A momentum line jumping quickly up to a high reading and crossing an overbought threshold early, while the underlying move is still developing — illustrating a leading indicator warning ahead of time.](/diagrams/introduction-to-indicators-2.svg)
+
+![A price line with upper and lower bands that stay narrow while price is calm and stretch far apart during a sharp swing — illustrating the volatility family (e.g. Bollinger Bands) widening when price swings a lot.](/diagrams/introduction-to-indicators-3.svg)
+
+![Vertical volume bars that stay low on quiet days and spike much higher on big-move days — illustrating the volume family showing how much trading is happening, separate from price direction.](/diagrams/introduction-to-indicators-4.svg)
+
 ## 🔍 Example
 Imagine a share of "Bazaar Ltd" trades at ₹100.
 - Over 10 days it rises: ₹100, ₹102, ₹104 … up to ₹120.
 - A **10-day moving average** (a lagging trend tool) slowly climbs behind the price, maybe reaching ₹110. It confirms: "yes, the trend is up."
 - The **RSI** (a leading momentum tool) jumps to a high reading fast and warns: "this may be getting too hot."
-
-```
-Price   :  ....../
-MovAvg  :  ..../     (follows behind = lagging)
-RSI     :  ../       (jumps early = leading)
-```
-
 - Notice: the price moved *first*. Both tools only reacted to it. That is the whole idea.
+
+![Bazaar Ltd's price climbing from ₹100 to ₹120 over 10 days with a 10-day moving average line trailing beneath it, reaching about ₹110 by the end — the lagging tool confirming the rise after it happened.](/diagrams/introduction-to-indicators-5.svg)
+
+![Bazaar Ltd's RSI line jumping fast to a high reading and crossing the overbought threshold well before day 10, while price is still on its way up to ₹120 — the leading tool warning early that the move may be getting too hot.](/diagrams/introduction-to-indicators-6.svg)
 
 ## ⚠️ Common mistakes
 - **Indicator overload** — loading ten indicators at once. They contradict each other and freeze you (this is called **analysis paralysis** — too much data, no decision).

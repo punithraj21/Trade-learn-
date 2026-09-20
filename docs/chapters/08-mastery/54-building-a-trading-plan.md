@@ -52,23 +52,22 @@ This is the heart of the plan.
 - One stop-loss on every trade. No exceptions.
 - Hit your daily loss limit? Close the screen. Tomorrow is another day.
 
+![A five-step flow diagram condensing the 8 parts of a trading plan into the order you decide them: Goals & style, Capital & risk %, Setups & entry, Daily loss limit, Review.](/diagrams/building-a-trading-plan-1.svg)
+
 ## 🔍 Example
 Riya has ₹1,00,000 to trade. Her plan says: risk **1%** per trade = **₹1,000**.
 
 She spots her one allowed setup. Her plan tells her exactly what to do:
-
-```
-Buy price     : ₹200
-Stop-loss     : ₹190   (₹10 risk per share)
-Shares        : ₹1,000 ÷ ₹10 = 100 shares
-Target        : ₹220   (₹20 gain per share)
-```
 
 - If it goes wrong, she loses ₹1,000 — a small, planned amount.
 - If it goes right, she gains ₹2,000.
 - Her daily loss limit is ₹2,000. After two losing trades, she stops. No revenge trading.
 
 Because the numbers were decided *before*, she does not panic. She just follows the page.
+
+![A risk:reward bracket for Riya's trade: entry at ₹200, stop-loss at ₹190, target at ₹220, showing a 1:2 risk-to-reward ratio.](/diagrams/building-a-trading-plan-2.svg)
+
+![A bar comparison of Riya's daily loss limit: two losing trades of -₹1,000 each reaching the -₹2,000 daily loss limit, after which she stops for the day.](/diagrams/building-a-trading-plan-3.svg)
 
 ## ⚠️ Common mistakes
 - **Keeping the plan in your head.** Moods rewrite it. Write it down.

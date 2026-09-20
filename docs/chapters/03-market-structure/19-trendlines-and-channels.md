@@ -56,19 +56,24 @@ A channel is **two parallel trendlines** with price bouncing between them.
 - **Watch for a break:** if price cuts through the trendline and closes past it, that is a heads-up. The trend *may* be changing.
 - A trendline is a helper for **timing**, not a magic signal. Always use it with other clues (like volume or the wider trend).
 
+![An uptrend line connecting three rising swing lows, drawn under the price as dynamic support.](/diagrams/trendlines-and-channels-1.svg)
+
+![A downtrend line connecting three falling swing highs, drawn above the price as dynamic resistance.](/diagrams/trendlines-and-channels-2.svg)
+
+![A rising channel: two parallel upward-sloping lines with price bouncing between the lower support line and the upper resistance line.](/diagrams/trendlines-and-channels-3.svg)
+
+![A falling channel: two parallel downward-sloping lines with price bouncing between the upper resistance line and the lower support line.](/diagrams/trendlines-and-channels-4.svg)
+
+![A horizontal channel (range): two flat parallel lines with price moving sideways between them.](/diagrams/trendlines-and-channels-5.svg)
+
 ## 🔍 Example
 Stock "Bazaar Ltd" is in an uptrend. You connect three rising swing lows: ₹100, ₹110, ₹120. This is your uptrend line (support). You draw a parallel line across the peaks (resistance).
-
-```
- (upper line) ────╱────╱────╱  ← sell / take profit zone
-price bounces   ╱    ╱    ╱
- (lower line) ─╱────╱────╱      ← buy zone
-             100  110  120
-```
 
 - Price falls back to the lower line near ₹120. That is your buy zone.
 - You plan to take profit near the upper line.
 - If price instead breaks *below* ₹120 and stays there, the uptrend may be ending — a signal to be careful, not to blindly buy again.
+
+![Bazaar Ltd's rising channel: the uptrend line connects swing lows at ₹100, ₹110, and ₹120, a parallel resistance line runs across the peaks, and price returning to ₹120 marks the buy zone.](/diagrams/trendlines-and-channels-6.svg)
 
 ## ⚠️ Common mistakes
 - **Forcing a line to fit.** Do not bend or ignore points just to make a pretty line. Let the price decide.
@@ -76,6 +81,8 @@ price bounces   ╱    ╱    ╱
 - **Drawing very steep lines.** A steep trendline is usually not sustainable and breaks soon.
 - **Treating a break as a guaranteed reversal.** A break is a warning, not a promise. Price can come right back.
 - **Ignoring the bigger trend.** A small channel inside a large downtrend is still risky.
+
+![A very steep trendline gets broken by price almost immediately, while a shallower trendline on the same price path keeps holding as valid support.](/diagrams/trendlines-and-channels-7.svg)
 
 ## ✅ Key takeaways
 - A trendline is a diagonal line acting as moving support or resistance.

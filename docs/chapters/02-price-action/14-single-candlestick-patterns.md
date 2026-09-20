@@ -55,18 +55,23 @@ The shape is the same, but where it appears changes the message.
   - **Volume** (how many shares traded) — a big candle on big volume matters more.
 - One candle is a clue, not a promise.
 
+![A bullish marubozu candle: a large body running the full range from open to close with no wick at all, showing buyers were in complete control for the whole session (a red marubozu with no wick shows the same one-sided control for sellers).](/diagrams/single-candlestick-patterns-1.svg)
+
+![A doji candle: open and close are almost equal, so the body is a thin line sitting between two long, roughly equal wicks — a tug-of-war that ended level.](/diagrams/single-candlestick-patterns-2.svg)
+
+![A hammer candle: a small body near the top of its range with a long lower wick, showing sellers pushed price down before buyers pushed it back up — the same shape after an uptrend is called a hanging man.](/diagrams/single-candlestick-patterns-3.svg)
+
+![A shooting star (also called an inverted hammer) candle: a small body near the bottom of its range with a long upper wick, showing buyers pushed price up before sellers pushed it back down.](/diagrams/single-candlestick-patterns-4.svg)
+
 ## 🔍 Example
 Imagine a stock falls for many days from ₹120 down to ₹100. At ₹100, buyers stepped in before at this same level, so ₹100 is a support level.
-
-```
- |        <- long lower wick (price dipped, then came back)
-[=]       <- small body near the top
-```
 
 - Today a hammer forms right at ₹100.
 - The long lower wick shows sellers pushed to ₹96, but buyers pushed it back to ₹100.
 - Because it is after a downtrend AND at support, it suggests buyers may be stepping in.
 - This is a clue to watch — not a signal to bet your whole account.
+
+![The hammer from this example: a small body near the top of its range (open near Rs 99, close Rs 100) with a long lower wick down to Rs 96, forming right at the Rs 100 support level after the fall from Rs 120.](/diagrams/single-candlestick-patterns-5.svg)
 
 ## ⚠️ Common mistakes
 - Trading a candle with no context — a hammer in the middle of nowhere means little.

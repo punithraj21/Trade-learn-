@@ -48,19 +48,14 @@ This is very important. When a level breaks, it often swaps its job.
 - Example: instead of exactly ₹200, think "the ₹198 to ₹202 area."
 - Price is messy. Give the level a little room to breathe.
 
+![Price oscillating near round-number levels ₹100 and ₹150, bouncing up off ₹100 each time it is touched and dropping back from ₹150 each time it is touched, showing how repeated touches build a stronger level.](/diagrams/support-and-resistance-1.svg)
+
+![The same idea drawn as an exact ₹200 line versus a realistic ₹198–₹202 band, showing why a level should be treated as a zone rather than one perfect price.](/diagrams/support-and-resistance-2.svg)
+
 ## 🔍 Example
 Say a stock, "Sunrise Ltd," trades like this:
 - It falls to ₹100 three times and bounces up each time. So ₹100 is **support**.
 - It rises to ₹120 twice and drops back each time. So ₹120 is **resistance**.
-
-A tiny picture:
-
-```
-₹120 ---X---X---  <- resistance (ceiling)
-       /   \  /
-      /     \/
-₹100 -o---o---o-  <- support (floor)
-```
 
 How you might use it:
 - Near ₹100, buyers may return, so you watch for a **buy** chance.
@@ -69,12 +64,16 @@ How you might use it:
 
 Remember: this is a plan, not a promise. Levels can and do break.
 
+![Sunrise Ltd price path bouncing up off ₹100 support three times and dropping back from ₹120 resistance twice, then closing above ₹120 and later dipping back to ₹120 and holding — the old ceiling acting as the new floor.](/diagrams/support-and-resistance-3.svg)
+
 ## ⚠️ Common mistakes
 - **Blindly trusting a bounce.** A level can break. Never assume price must turn.
 - **Drawing lines too thin.** S/R is a zone. An exact single price will trap you.
 - **Ignoring round numbers.** Beginners often miss 100, 500, 1000 — but the market watches them.
 - **Using weak levels.** A level touched only once is weak. More touches means stronger.
 - **No exit plan.** Even a strong level can fail, so always know where you are wrong and will exit.
+
+![Price approaching the round-number level ₹500, which had looked like strong support, but this time breaking straight through instead of bouncing — a level can break, so a bounce should never be assumed.](/diagrams/support-and-resistance-4.svg)
 
 ## ✅ Key takeaways
 - Support is a floor where buyers step in; resistance is a ceiling where sellers step in.

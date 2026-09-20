@@ -63,19 +63,20 @@ There is no single "correct" path. Pick one that feels easy.
 - **Bottom-up** — start with the company you like, then check its numbers and story directly.
 - Both are fine. Many beginners find bottom-up simpler.
 
+![A three-step flow diagram showing the top-down approach to fundamental analysis: start with the Economy, then the Sector, then the Company.](/diagrams/what-is-fundamental-analysis-1.svg)
+
 ## 🔍 Example
 Imagine two tea-stall businesses. You want to buy a share in one.
-
-```
-             Chai Corner      Tea Time
-Yearly profit   ₹10 lakh        ₹1 lakh
-Debt (loans)    ₹2 lakh         ₹20 lakh
-Growth/year     +15%            flat
-```
 
 - Chai Corner earns more, owes less, and is growing. It looks like a healthier business.
 - But price matters too. If Chai Corner's share costs ₹5,000 and Tea Time's costs ₹50, you must ask: *Is Chai Corner worth that much more?*
 - FA helps you weigh both parts: **good business** *and* **fair price**. A great business at a silly-high price can still be a poor buy.
+
+![Bar chart comparing Chai Corner and Tea Time: Chai Corner has ₹10 lakh yearly profit and ₹2 lakh debt, while Tea Time has ₹1 lakh yearly profit and ₹20 lakh debt.](/diagrams/what-is-fundamental-analysis-2.svg)
+
+![Bar chart comparing yearly growth: Chai Corner is growing at +15% while Tea Time is flat at 0%.](/diagrams/what-is-fundamental-analysis-3.svg)
+
+![Bar chart comparing share price: Chai Corner's share costs ₹5,000 while Tea Time's costs ₹50, showing that price alone doesn't tell you which is the better buy.](/diagrams/what-is-fundamental-analysis-4.svg)
 
 ## ⚠️ Common mistakes
 - Buying only because the price is going up (that is chasing the chart, not the business).
@@ -83,6 +84,8 @@ Growth/year     +15%            flat
 - Believing tips from friends or social media without reading any real numbers.
 - Thinking "good company" always means "good buy" — price still matters.
 - Feeling you must be an accountant. You do not. A few key numbers go a long way.
+
+![Line chart of a rising price over six days, with a marker showing a buyer entering near the top only because the price kept going up, not because of any business research.](/diagrams/what-is-fundamental-analysis-5.svg)
 
 ## ✅ Key takeaways
 - FA studies the business (earnings, assets, debt, growth, management), not just the price.

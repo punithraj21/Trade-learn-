@@ -59,20 +59,22 @@ This is the most important beginner idea.
 - If you think a stock is worth ₹100, try to buy near ₹70, not ₹99.
 - The gap protects you when your estimate is wrong (and it often will be).
 
+![Bar comparison showing a ₹500 tomato as a bad, too-costly buy versus a ₹2 tomato as a good, cheap buy — the same "price vs. value" idea applied to stocks.](/diagrams/valuation-basics-1.svg)
+
+![Flow diagram of the DCF idea: future cash the company earns, discounted to today's value, added up, to equal the estimated company value.](/diagrams/valuation-basics-2.svg)
+
+![Bar comparison of a ₹100 value estimate against buying near ₹70 (a 30% margin of safety, safer) versus buying near ₹99 (about a 1% margin, riskier).](/diagrams/valuation-basics-3.svg)
+
 ## 🔍 Example
 A simple relative-P/E check.
-
-```
-Company X share price = ₹200
-Profit per share      = ₹20
-P/E = 200 / 20 = 10
-```
 
 - Company X's **own past** P/E usually sits around **15**.
 - Its **peers** trade around a P/E of **14**.
 - Today X trades at a P/E of **10** — lower than both.
 - Reading: X looks **cheaper than usual and cheaper than peers**.
 - This is a hint to study further, not a "buy now" signal. Ask **why** it is cheap — sometimes there is a real problem.
+
+![Bar comparison of Company X's current P/E of 10 against its own past average P/E of about 15 and its peers' average P/E of about 14.](/diagrams/valuation-basics-4.svg)
 
 ## ⚠️ Common mistakes
 - Thinking a famous, loved company is **always** a good buy at any price.

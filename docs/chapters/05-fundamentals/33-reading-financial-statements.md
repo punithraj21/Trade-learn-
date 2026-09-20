@@ -52,6 +52,12 @@ Profit on paper can be dressed up. **Cash** (actual money in the bank) is much h
 - **Financing cash flow** — cash from taking loans, repaying loans, or paying dividends.
 - Analogy: your bank passbook. It shows real money coming in and going out, not just promises.
 
+![Bar chart showing Revenue of ₹100 minus Expenses of ₹80 leaving Net income of ₹20](/diagrams/reading-financial-statements-1.svg)
+
+![Donut chart showing ₹150 of total assets split into ₹60 of liabilities and ₹90 of equity](/diagrams/reading-financial-statements-2.svg)
+
+![Flow diagram showing the three types of cash flow: operating, investing, and financing](/diagrams/reading-financial-statements-3.svg)
+
 ## 🔍 Example
 
 Meet "Chai Corner Ltd", a tea-stall company. Here are its numbers for one year:
@@ -63,13 +69,13 @@ Meet "Chai Corner Ltd", a tea-stall company. Here are its numbers for one year:
 
 Its balance sheet on the last day:
 
-```
-Assets ₹150  =  Liabilities ₹60  +  Equity ₹90
-```
+![Bar chart showing Chai Corner Ltd's balance sheet: ₹150 in assets minus ₹60 in liabilities leaves ₹90 in equity](/diagrams/reading-financial-statements-4.svg)
 
 The see-saw balances: 60 + 90 = 150. Good.
 
 Its cash flow shows **₹18 of operating cash flow** — close to the ₹20 profit. That means the profit is real cash, not just an entry on paper. A healthy sign.
+
+![Bar chart comparing Chai Corner Ltd's ₹20 net income to its ₹18 operating cash flow, showing the two are close](/diagrams/reading-financial-statements-5.svg)
 
 ## ⚠️ Common mistakes
 - Looking only at profit and ignoring cash flow. Paper profit with no cash is a red flag.

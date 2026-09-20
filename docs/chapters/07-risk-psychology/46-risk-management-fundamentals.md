@@ -52,6 +52,12 @@ A **drawdown** is how far your account has fallen from its peak. Big drawdowns a
 - So avoiding big losses matters more than chasing big wins.
 - Slogan to remember: **defence wins the game.** Protect the downside, and the upside takes care of itself.
 
+![Donut chart showing a trader losing on 4 of 10 trades (40%) while still winning on 6 of 10 (60%), illustrating that losses are normal](/diagrams/risk-management-fundamentals-1.svg)
+
+![Flow diagram of the four core risk rules in order: risk 1-2% per trade, always use a stop-loss, never average down blindly, and cap total open risk](/diagrams/risk-management-fundamentals-2.svg)
+
+![Bar chart comparing drawdown recovery: a 10% loss needs about an 11% gain to recover, while a 50% loss needs a full 100% gain to recover](/diagrams/risk-management-fundamentals-3.svg)
+
 ## 🔍 Example
 Let's say Ravi has ₹1,00,000 in his account.
 
@@ -62,12 +68,11 @@ Let's say Ravi has ₹1,00,000 in his account.
 
 Now compare two paths:
 
-```
-Small loss path:   1,00,000 -> lose 2%  -> 98,000  (need +2% to recover)
-Big loss path:     1,00,000 -> lose 50% -> 50,000  (need +100% to recover)
-```
-
 The small loss is easy to recover. The big loss is a mountain to climb. That is the whole lesson.
+
+![Price line showing Ravi's entry at ₹100 and his stop-loss exit at ₹96, a ₹4-per-share loss](/diagrams/risk-management-fundamentals-4.svg)
+
+![Bar chart comparing a small 2% loss (₹1,00,000 to ₹98,000, needing only +2% to recover) against a big 50% loss (₹1,00,000 to ₹50,000, needing +100% to recover)](/diagrams/risk-management-fundamentals-5.svg)
 
 ## ⚠️ Common mistakes
 - Trading with no stop-loss and "hoping" the price comes back.
@@ -75,6 +80,8 @@ The small loss is easy to recover. The big loss is a mountain to climb. That is 
 - Averaging down on a losing trade to feel better, turning a small loss into a big one.
 - Opening many trades at once, so total risk quietly becomes huge.
 - Thinking every loss means you are a bad trader. Losses are part of the job.
+
+![Price line showing a trade entered at ₹100 with no stop-loss set, drifting steadily down to ₹60 as the loss is never capped](/diagrams/risk-management-fundamentals-6.svg)
 
 ## ✅ Key takeaways
 - Survive first. No capital, no trading.

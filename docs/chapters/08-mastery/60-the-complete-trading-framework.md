@@ -56,6 +56,12 @@ A trade with no plan is a gamble. Write these down first:
 - **Manage:** trail (raise your stop as price rises) your winners; exit losers at the stop. **Never widen the stop** to avoid a loss.
 - **Review:** each week, read your journal. Ask: which trades followed the plan? That matters more than profit.
 
+![The five stages of the trading framework — Analyse, Plan the trade, Execute, Manage, Review — shown as a repeating sequence](/diagrams/the-complete-trading-framework-1.svg)
+
+![Stage 1's top-down analysis order: Market, then Sector, then Fundamentals, then Technicals](/diagrams/the-complete-trading-framework-2.svg)
+
+![An entry/stop/target bracket with illustrative numbers showing the minimum risk-reward rule of at least 1:2](/diagrams/the-complete-trading-framework-3.svg)
+
 ## 🔍 Example
 You have ₹1,00,000. You risk 1% = ₹1,000 per trade.
 
@@ -65,11 +71,11 @@ You have ₹1,00,000. You risk 1% = ₹1,000 per trade.
 - **Execute:** Chart confirms → buy 50 at ₹500.
 - **Manage:** Price rises to ₹540 → move stop up to ₹520 to protect profit.
 
-```
-ANALYSE -> PLAN -> EXECUTE -> MANAGE -> REVIEW
-   ^                                       |
-   |_______________ loop back _____________|
-```
+![The ABC trade plan as an entry/stop/target bracket: entry ₹500, stop-loss ₹480, target ₹560, giving a risk-reward of 1:3](/diagrams/the-complete-trading-framework-4.svg)
+
+![The ABC trade being managed: price rises from the ₹500 entry to ₹540, so the stop-loss is trailed up from ₹480 to ₹520, with the ₹560 target still ahead](/diagrams/the-complete-trading-framework-5.svg)
+
+![The five-stage routine looping back to Analyse after Review, ready for the next trade](/diagrams/the-complete-trading-framework-6.svg)
 
 ## ⚠️ Common mistakes
 - Skipping Analyse and buying on a tip or hype.
@@ -77,6 +83,8 @@ ANALYSE -> PLAN -> EXECUTE -> MANAGE -> REVIEW
 - Widening the stop when price goes against you — this turns a small loss into a big one.
 - Cutting winners fast but holding losers, hoping they recover.
 - Never journaling, so the same mistake repeats forever.
+
+![Widening a stop-loss the wrong way: moving the stop from the planned ₹480 to ₹450 turns a ₹20 per-share loss into a ₹50 per-share loss](/diagrams/the-complete-trading-framework-7.svg)
 
 ## ✅ Key takeaways
 - Use the same 5 stages every single time: Analyse, Plan, Execute, Manage, Review.

@@ -49,19 +49,21 @@ Go through these in order for every company. Take notes as you go.
 - **Step 9 — Estimate value and demand a margin of safety.** A "margin of safety" means buying below what you think it is worth. Like buying a ₹100 item for ₹70, so a small mistake still leaves you safe.
 - **Step 10 — Scan for red flags and news.** Look for warning signs: falling sales, rising debt, court cases, or leaders selling shares. Read the latest news too.
 
+![Flow diagram of checklist steps 1 to 5: Understand Business, Check Growth, Read Cash Flow, Check Ratios, Check Debt.](/diagrams/how-to-analyze-a-company-checklist-1.svg)
+
+![Flow diagram of checklist steps 6 to 10: Assess Moat, Check Management, Industry & Risks, Margin of Safety, Scan Red Flags.](/diagrams/how-to-analyze-a-company-checklist-2.svg)
+
 ## 🔍 Example
 You study "FreshMart," a grocery chain.
 
-```
-Step 1: Sells groceries. Earns from sales.   OK
-Step 2: Revenue up ₹100cr → ₹150cr in 4 yrs. OK
-Step 3: Operating cash flow positive yearly. OK
-Step 5: Debt-to-Equity = 0.3 (low).          OK
-Step 9: You value it at ₹200; price is ₹140. OK (safety!)
-```
-
 - Most steps look healthy, so FreshMart goes on your watchlist.
 - You still write down your reasons before buying, so you can review later.
+
+![Line chart of FreshMart's revenue rising from ₹100cr to ₹150cr over 4 years, the Step 2 growth check.](/diagrams/how-to-analyze-a-company-checklist-3.svg)
+
+![Donut chart of FreshMart's Debt-to-Equity ratio of 0.3, showing debt as a small slice next to owners' equity, the Step 5 debt check.](/diagrams/how-to-analyze-a-company-checklist-4.svg)
+
+![Bar chart comparing FreshMart's estimated value of ₹200 against its market price of ₹140, showing the margin of safety from Step 9.](/diagrams/how-to-analyze-a-company-checklist-5.svg)
 
 ## ⚠️ Common mistakes
 - Buying on a tip without doing any of the 10 steps.
@@ -69,6 +71,8 @@ Step 9: You value it at ₹200; price is ₹140. OK (safety!)
 - Ignoring debt because the growth looks exciting.
 - Trusting profit but never checking cash flow.
 - Paying any price, with no margin of safety.
+
+![Bar chart illustrating the profit-without-cash-check mistake: reported profit of +₹50cr looks healthy while operating cash flow is -₹10cr.](/diagrams/how-to-analyze-a-company-checklist-6.svg)
 
 ## ✅ Key takeaways
 - Use the same 10-step checklist for every company.

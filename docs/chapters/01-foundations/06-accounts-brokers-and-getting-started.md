@@ -54,22 +54,19 @@ A broker is like the shopkeeper who connects you to the market (a bazaar of buye
 - **Easy to use** — clear buttons, simple screens. As a beginner you want calm, not clutter.
 - **Customer support** — can you reach a human when money is stuck? Test this early.
 
+![Flow diagram showing money moving from your bank account into your trading account, where orders are placed, with the resulting shares landing in your demat account.](/diagrams/accounts-brokers-and-getting-started-1.svg)
+
+![Flow diagram of the five things to check before choosing a broker, in order: SEBI registration, low brokerage cost, a stable app, ease of use, and good customer support.](/diagrams/accounts-brokers-and-getting-started-2.svg)
+
 ## 🔍 Example
 
 Priya wants to start. She does not rush. Here is her path:
 
-```
-Step 1  Pick a SEBI-registered broker      (checked the licence)
-Step 2  Finish KYC online (PAN + Aadhaar)  (took 15 minutes)
-Step 3  Link her bank account
-Step 4  Add ₹5,000 only (money she can lose)
-Step 5  Practise on paper for 2 weeks
-        then buy ONE share worth ₹500
-```
-
 - She did not put her savings in on day one.
 - She practised first, then started small. Her first order was tiny on purpose.
 - If it goes wrong, she loses a little and learns a lot. That is a smart start.
+
+![Flow diagram of Priya's five-step path to her first trade: pick a SEBI-registered broker, finish KYC in 15 minutes, link her bank account, add ₹5,000 only, then practise for 2 weeks before buying one ₹500 share.](/diagrams/accounts-brokers-and-getting-started-3.svg)
 
 ## ⚠️ Common mistakes
 - **Trusting "tip" providers and Telegram tipsters.** Strangers promising sure profits are almost always selling a dream. No one can promise the market.

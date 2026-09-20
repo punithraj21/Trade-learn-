@@ -55,20 +55,21 @@ This is the most important habit. A good decision can still lose. A bad decision
 - A trade where you broke your rules but won = a **bad** trade (you got lucky).
 - Like a cricket batsman: playing the right shot is good even if you get out. Chasing a wild ball is bad even if you score.
 
+![A flow diagram of the journal loop: take a trade, record every detail, weekly review, spot the patterns, trade smarter.](/diagrams/keeping-a-trading-journal-1.svg)
+
+![A bar comparison showing that a trade where you followed the plan but lost is graded a good trade, while a trade where you broke the rules but won is graded a bad trade.](/diagrams/keeping-a-trading-journal-2.svg)
+
 ## 🔍 Example
 
 A beginner writes one row after a trade:
-
-```
-Date    | Stock    | Reason      | Entry | Stop | Target | Size | Result | R   | Felt  | Plan?
-19 Sep  | Infosys  | Breakout    | 1500  | 1470 | 1560   | 10   | +₹600  | +2R | Calm  | Yes
-```
 
 - Risk was ₹30 per share × 10 = ₹300.
 - Profit was ₹60 per share × 10 = ₹600.
 - ₹600 ÷ ₹300 = **+2R**. A clean, planned win.
 
 At the weekly review, they see 8 trades. All "Breakout" setups in the morning made money. All afternoon "tip from a friend" trades lost, and "Plan? = No" on every one. Now the lesson is clear: trade breakouts in the morning, stop taking tips.
+
+![A risk/reward diagram of the Infosys breakout trade: entry at ₹1500, stop-loss at ₹1470, target at ₹1560, giving a 1:2 risk-to-reward ratio that matches the +2R result.](/diagrams/keeping-a-trading-journal-3.svg)
 
 ## ⚠️ Common mistakes
 - Only writing down wins. You learn most from losses.

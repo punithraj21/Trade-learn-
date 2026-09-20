@@ -52,23 +52,20 @@ Expectancy tells you if your trading plan makes money over many trades.
 - One trade is like one ball in cricket. Anything can happen.
 - Expectancy is your batting average over the whole season. That is what counts.
 
+![Entry at 100, stop-loss at 90 (risking 10), and target at 120 (aiming for 20), forming a 1:2 risk-reward setup.](/diagrams/risk-reward-ratio-1.svg)
+
 ## 🔍 Example
 You take **10 trades**. You risk **₹1,000** on each.
 Your RR is **1:2**, so each win makes **₹2,000**.
 
 You win only **4** trades and lose **6**. Win rate = 40%.
 
-```
-Wins:   4 × +2,000 = +8,000
-Losses: 6 × -1,000 = -6,000
--------------------------------
-Net result:          +2,000
-```
-
 - You were **wrong more often than right** (only 40% wins).
 - You still ended with **+₹2,000**.
 - The reason: each win was double the size of each loss.
 - This is why quality of trades beats quantity of trades.
+
+![Bar chart of 10 trades at 1:2 RR: 4 wins of +₹2,000 each total +₹8,000, 6 losses of -₹1,000 each total -₹6,000, netting +₹2,000 overall.](/diagrams/risk-reward-ratio-2.svg)
 
 ## ⚠️ Common mistakes
 - Taking trades with poor RR (like 2:1 — risking more than you aim to make).
@@ -76,6 +73,8 @@ Net result:          +2,000
 - Holding losers too long, so losses grow big.
 - Chasing a high win rate while ignoring the size of each win and loss.
 - Taking many trades for excitement instead of a few good ones.
+
+![Comparison of a good 1:2 risk-reward setup (risk 10, reward 20) against a poor 2:1 setup (risk 20, reward 10), showing the reversed, unfavorable shape.](/diagrams/risk-reward-ratio-3.svg)
 
 ## ✅ Key takeaways
 - RR compares what you risk to what you aim to gain (risk : reward).

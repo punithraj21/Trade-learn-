@@ -58,19 +58,23 @@ A price is set by buyers and sellers, like haggling in a bazaar. More buyers tha
 - **IPO (Initial Public Offering)** — the first time a private company sells its shares to the public.
 - Before the IPO, only a few owners hold shares. After it, anyone can buy them on the stock exchange (like the NSE or BSE in India).
 
+![Bar chart comparing your 100 shares against a company's 1,00,000 total shares, showing that a share is a small, 0.1% slice of ownership](/diagrams/how-stocks-work-1.svg)
+
+![Flow diagram showing the market cap calculation: share price ₹100, times 1,00,000 shares, equals ₹1,00,00,000 market cap](/diagrams/how-stocks-work-2.svg)
+
+![Flow diagram showing a private company with few owners going through an IPO and then trading openly on the NSE or BSE](/diagrams/how-stocks-work-3.svg)
+
 ## 🔍 Example
 You buy 10 shares of a company at ₹100 each.
 
-```
-Buy:  10 shares × ₹100 = ₹1,000  (money you put in)
-Sell: 10 shares × ₹120 = ₹1,200  (price went up)
-Gain: ₹1,200 − ₹1,000 = ₹200     (capital gain)
-```
-
-- You made ₹200 profit from the price rising.
+- The price rises to ₹120 and you sell — that's ₹200 profit (10 shares × ₹20 gain each) from the price rising.
 - Now add a dividend. The company pays ₹2 per share this year.
 - Dividend = 10 shares × ₹2 = ₹20 extra in your pocket.
 - But be honest: the price can also fall. If you sold at ₹80, you would get ₹800 and lose ₹200. Prices go both ways.
+
+![Price line chart showing 10 shares bought at ₹100 and sold at ₹120, marking the entry buy point and the target sell point](/diagrams/how-stocks-work-4.svg)
+
+![Bar chart comparing three outcomes on the same 10 shares: a +₹200 capital gain from selling at ₹120, a +₹20 dividend, and a -₹200 loss if instead sold at ₹80](/diagrams/how-stocks-work-5.svg)
 
 ## ⚠️ Common mistakes
 - Thinking a share is just a number on a screen — it is real ownership in a real business.

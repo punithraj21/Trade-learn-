@@ -52,6 +52,14 @@ Colour tells you who won the period.
 - **Doji** — open is about equal to close (tiny body). A tug-of-war with no winner. Indecision, and sometimes a warning of a reversal (a turn in direction).
 - **Spinning Top** — small body with long wicks on both sides. Big swings but no clear winner. Also indecision or a possible reversal.
 
+![A single large labelled candle showing the four prices — open, high, low, close — plus the body and wick legend.](/diagrams/anatomy-of-a-candlestick-1.svg)
+
+![Two candles side by side: a bullish candle whose close is above its open, and a bearish candle whose close is below its open, showing which side won each period.](/diagrams/anatomy-of-a-candlestick-2.svg)
+
+![A Doji candle: open and close almost equal (a tiny body) with long wicks reaching both above and below, showing indecision.](/diagrams/anatomy-of-a-candlestick-3.svg)
+
+![A Spinning Top candle: a small body with long wicks on both sides, showing big swings but no clear winner.](/diagrams/anatomy-of-a-candlestick-4.svg)
+
 ## 🔍 Example
 Say a stock trades for one day.
 - Open: ₹100
@@ -64,17 +72,11 @@ Close (₹110) is above open (₹100), so this is a **green (bullish)** candle.
 - Upper wick = ₹110 up to ₹112 (small).
 - Lower wick = ₹100 down to ₹98 (small).
 
-A tiny sketch:
-
-```
-   | 112  high
- ┌─┴─┐ 110 close
- │   │
- └─┬─┘ 100 open
-   | 98   low
-```
-
 Now imagine a different day: open ₹100, close ₹101, but high ₹112 and low ₹90. Same rough area, but a tiny body with huge wicks — a Spinning Top. Buyers and sellers fought hard and nobody won. Same candle shape family, very different story.
+
+![Today's candle labelled with its actual open (Rs 100), high (Rs 112), low (Rs 98) and close (Rs 110) — a hollow bullish body with small wicks on both ends.](/diagrams/anatomy-of-a-candlestick-5.svg)
+
+![The alternate-day candle labelled with open Rs 100, close Rs 101, high Rs 112 and low Rs 90 — a tiny body dwarfed by long wicks on both sides, a Spinning Top.](/diagrams/anatomy-of-a-candlestick-6.svg)
 
 ## ⚠️ Common mistakes
 - Reading only the colour and ignoring the body size and wicks. Colour is just one clue.
@@ -82,6 +84,8 @@ Now imagine a different day: open ₹100, close ₹101, but high ₹112 and low 
 - Confusing the top of a red body: on a red candle the top is the **open**, not the close.
 - Treating a single Doji as a sure reversal. It only hints — always check the candles around it.
 - Forgetting the time frame. A "1-day candle" and a "5-minute candle" tell very different stories.
+
+![A bearish candle labelled to show that on a red (down) candle, the top of the body is the open and the bottom is the close — the opposite of a bullish candle.](/diagrams/anatomy-of-a-candlestick-7.svg)
 
 ## ✅ Key takeaways
 - A candle stores four prices: open, high, low, close.

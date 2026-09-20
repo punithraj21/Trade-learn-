@@ -50,6 +50,10 @@ Neither is "better." The right choice depends on three things.
 - **Capital:** Both can start small, but trading losses can come quickly.
 - Many people **do both** — invest most of their money for the long term, and trade only a small portion they can afford to lose.
 
+![Flow diagram of investing: buy shares, hold for years, let money compound, then sell later.](/diagrams/trading-vs-investing-1.svg)
+
+![Flow diagram of trading: buy cheap, watch the chart, sell higher, then repeat.](/diagrams/trading-vs-investing-2.svg)
+
 ## 🔍 Example
 
 Meet two friends, both starting with ₹10,000.
@@ -57,13 +61,11 @@ Meet two friends, both starting with ₹10,000.
 - **Anita (investor)** buys shares of a strong company and holds. She checks once a month. In 5 years the business grows and her money grows with it. Some years are down, but she waits.
 - **Bhavya (trader)** buys a share at ₹100, watches the chart, and sells at ₹110 the same week — a ₹10 gain per share. She repeats. But some weeks the price drops to ₹95 and she takes a loss.
 
-```
-        NOW ......................... 5 YEARS
-Anita:  buy ---------- hold -------- sell (long)
-Bhavya: buy-sell buy-sell buy-sell  (many quick trades)
-```
-
 Same market. Anita played slow. Bhavya played fast. Both can win or lose — with different effort and stress.
+
+![Price line showing Anita buying at ₹10,000, dipping to ₹9,700 in year 1, then recovering to ₹14,000 by year 5 when she sells — a slow, held investment.](/diagrams/trading-vs-investing-3.svg)
+
+![Candlestick chart showing Bhavya's quick weekly trades: a ₹100-to-₹110 gain one week, a drop to ₹95 for a loss the next, then two more winning weeks.](/diagrams/trading-vs-investing-4.svg)
 
 ## ⚠️ Common mistakes
 - Thinking trading is quick, easy money. It needs skill and discipline.
@@ -71,6 +73,8 @@ Same market. Anita played slow. Bhavya played fast. Both can win or lose — wit
 - Using money you need for rent or food to trade.
 - Copying a "tip" without knowing if it is a trade or a long-term hold.
 - Mixing the two by accident — buying to trade, then holding a loser for years and calling it "investing."
+
+![Price line showing a ₹10,000 investment dipping to ₹9,400 in week 1, where an investor panic-sells — missing the recovery to ₹14,000 by year 5 had they held.](/diagrams/trading-vs-investing-5.svg)
 
 ## ✅ Key takeaways
 - Investing = hold for years, focus on the **business**, let money compound.

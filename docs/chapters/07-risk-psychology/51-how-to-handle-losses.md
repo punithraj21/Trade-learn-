@@ -54,17 +54,18 @@ A calm routine every time:
 - **Review the process.** Ask: did I follow my plan? If yes, good — no change needed. If no, note the rule you broke.
 - **Take a break.** Stand up, drink water, walk for 10 minutes. Let the emotion cool down.
 
+![Flow diagram of the loss spiral: a small planned loss, followed by an emotional reaction (revenge trading, averaging down, moving the stop, or oversizing), makes the loss grow fast until the account is wiped.](/diagrams/how-to-handle-losses-1.svg)
+
+![Flow diagram of the calm after-loss routine: accept it, don't re-enter yet, review your process, then take a break.](/diagrams/how-to-handle-losses-2.svg)
+
 ## 🔍 Example
 You have ₹50,000. Your rule: never lose more than 2% (₹1,000) on one trade, and never more than 4% (₹2,000) in one day. Then stop.
 
-```
-Trade 1: buy, stop-loss hit  → lose ₹1,000  ✅ followed plan
-   Angry. Want it back NOW.
-Trade 2 (revenge, no stop)   → lose ₹1,000  ⚠️ daily limit hit
-   → STOP for the day. Close the app.
-Day total: -₹2,000 (-4%). Account still ₹48,000. Safe to fight tomorrow.
-```
+![Bar chart of the day's two trades: Trade 1 loses ₹1,000 on a planned stop-loss, Trade 2 loses another ₹1,000 on a revenge trade, and the day total of -₹2,000 (-4%) hits the daily loss limit on the ₹50,000 account.](/diagrams/how-to-handle-losses-3.svg)
+
 Compare the bad path: no limit, you keep trading angry, remove your stop, double your size. One trade drops 20% and you lose ₹10,000 in an afternoon. Same start, very different ending. The limit is what saved you.
+
+![Bar chart comparing the two endings from the same ₹50,000 account: stopping at the daily limit costs -₹2,000 (-4%), while trading on with no limit costs -₹10,000 (-20%) in one afternoon.](/diagrams/how-to-handle-losses-4.svg)
 
 ## ⚠️ Common mistakes
 - Treating a small planned loss as a personal failure — then trading emotionally.
@@ -72,6 +73,10 @@ Compare the bad path: no limit, you keep trading angry, remove your stop, double
 - Averaging down into a falling stock and calling it "long-term investing".
 - Widening or deleting your stop-loss so the loss "isn't real yet".
 - Trading all day with no daily loss limit, so one bad day can wipe weeks of gains.
+
+![Price line showing averaging down into a falling stock: three buys at ₹100, ₹85, and ₹70 pull the average cost down to only ₹85, while the price keeps falling to ₹40, leaving a bigger loss than a single stop-loss would have.](/diagrams/how-to-handle-losses-5.svg)
+
+![Price line showing a stop-loss moved the wrong way: entry at ₹100 with a planned stop at ₹94 (a small loss), but instead of exiting there the stop is widened as price keeps falling to ₹80, turning a small planned loss into a much bigger one.](/diagrams/how-to-handle-losses-6.svg)
 
 ## ✅ Key takeaways
 - Losing is normal — every good trader loses regularly.

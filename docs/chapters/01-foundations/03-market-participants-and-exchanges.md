@@ -47,22 +47,17 @@ Not everyone in the market is the same size.
 - **Institutions** (large organisations that invest big money) = corporate box holders. This includes **mutual funds** (companies that pool many people's money to invest), banks, and foreign investors.
 - **Market makers** (firms that are always ready to buy and sell) = the busy stalls that never close. They provide **liquidity** (the ease of buying or selling quickly without moving the price much).
 
+![Flow diagram showing an order passing from the retail trader to the broker app, to the exchange, to the clearing corp, and finally into the depository as shares in a Demat account.](/diagrams/market-participants-and-exchanges-1.svg)
+
 ## 🔍 Example
 Riya wants to buy 10 shares of a company at ₹100 each.
-
-```
-   Riya  →  Broker App  →  Exchange (NSE)  →  matches a Seller
-    (fan)   (ticket seller)   (stadium)         (another person)
-                        ↓
-        Clearing Corp settles the trade
-                        ↓
-   ₹1,000 leaves Riya   →   10 shares arrive in her Demat account
-```
 
 - Riya taps "Buy" in her broker app. Cost: 10 × ₹100 = ₹1,000.
 - The broker sends this to the NSE, which finds a seller at ₹100.
 - The clearing corporation makes sure ₹1,000 is paid and 10 shares move to Riya.
 - The shares are stored in her Demat account. SEBI's rules protected her the whole time.
+
+![Flow diagram of Riya's order: she buys 10 shares at ₹100 through her broker app, the NSE matches a seller, the clearing corp settles the trade, and ₹1,000 leaves her account while 10 shares arrive in her Demat account.](/diagrams/market-participants-and-exchanges-2.svg)
 
 ## ⚠️ Common mistakes
 - Thinking you can buy shares directly from the exchange — you always need a broker.

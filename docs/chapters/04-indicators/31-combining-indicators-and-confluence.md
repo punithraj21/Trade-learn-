@@ -51,6 +51,10 @@ Pick one tool from each different family. Do not double up.
 - Keep the chart clean. Use 2 to 3 tools maximum.
 - A messy chart with ten tools hides the truth. Like ten people talking at once in a bazaar — you hear nothing clearly.
 
+![Bar chart contrasting RSI plus Stochastic, both momentum tools that together count as only one real opinion, against a non-overlapping Trend, Momentum, Level, and Volume set that counts as four independent opinions.](/diagrams/combining-indicators-and-confluence-1.svg)
+
+![Flow diagram showing a confluence setup built by stacking one tool from each of the Trend, Momentum, Level, and Volume families into a single Confluence.](/diagrams/combining-indicators-and-confluence-2.svg)
+
 ## 🔍 Example
 Stock ABC is trading at ₹100. Here is a bullish (expecting price up) setup where clues agree:
 
@@ -60,16 +64,9 @@ Stock ABC is trading at ₹100. Here is a bullish (expecting price up) setup whe
 - **Candle:** A bullish engulfing candle forms (a green candle that fully covers the last red one — buyers took over).
 - **Volume:** That green candle has rising volume. The move has real support.
 
-```
-Price above 50 EMA   -> trend UP
-  \
-   pullback to 95 (support + 61.8% Fib) -> LEVEL
-     \
-      RSI divergence + engulfing candle on volume -> CONFIRM
-        => stronger buy idea, stop-loss just below 95
-```
-
 Five different clues agree. That is real confluence. You still set a stop-loss (an exit if you are wrong) below ₹95.
+
+![Price chart of Stock ABC staying above its rising 50 EMA, pulling back to the ₹95 support and 61.8% Fibonacci level where RSI shows bullish divergence, then confirming with a bullish engulfing candle on rising volume before continuing higher.](/diagrams/combining-indicators-and-confluence-3.svg)
 
 ## ⚠️ Common mistakes
 - Thinking more indicators means more accuracy. It does not. Agreement of a *few good* ones does.
@@ -77,6 +74,8 @@ Five different clues agree. That is real confluence. You still set a stop-loss (
 - Letting indicators lead and ignoring price. Price is the boss.
 - A crowded chart with 8 tools. You freeze and cannot decide.
 - Trading even when clues disagree. If they fight, stay out.
+
+![Bar chart comparing a clean 2-to-3-tool chart that leads to a clear decision against a crowded 8-tool chart that causes a trader to freeze and fail to decide.](/diagrams/combining-indicators-and-confluence-4.svg)
 
 ## ✅ Key takeaways
 - Confluence = a few *different* signals agreeing.

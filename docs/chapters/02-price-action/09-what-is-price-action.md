@@ -60,6 +60,10 @@ Price action looks for repeating shapes and important prices.
 - **Key levels** — prices where buyers or sellers acted strongly before.
 - These are visible on the chart. You do not need any tool to see them.
 
+![A single labelled candle showing the four OHLC parts — open, high, low, and close — with the body and wicks marked.](/diagrams/what-is-price-action-1.svg)
+
+![A price line touching the same key level three times before breaking to a new higher point, illustrating repeating patterns and structure.](/diagrams/what-is-price-action-2.svg)
+
 ## 🔍 Example
 
 Imagine a stock, over one hour (an H1 candle):
@@ -69,23 +73,12 @@ Imagine a stock, over one hour (an H1 candle):
 - Low: ₹99
 - Close: ₹107
 
-A tiny sketch of that candle:
-
-```
- 108 ─ high
-     |
- 107 ─ close  ← ended near the top
-     █
-     █  (body)
- 100 ─ open
-     |
-  99 ─ low
-```
-
 - Price opened at ₹100, dipped to ₹99, jumped to ₹108, and closed at ₹107.
 - The close is near the high. Buyers won this hour.
 - You learned this from price alone — no indicator needed.
 - This does **not** promise the next hour goes up. It only tells you who was in control this hour.
+
+![A labelled H1 candle with open ₹100, high ₹108, low ₹99, and close ₹107 — the close sits near the high, showing buyers were in control.](/diagrams/what-is-price-action-3.svg)
 
 ## ⚠️ Common mistakes
 - Thinking price action "predicts" the future. It reads the present; it cannot guarantee what comes next.

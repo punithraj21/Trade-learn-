@@ -43,6 +43,16 @@ Learn these one at a time. You do not need all four at once.
 - **Histogram size:** Bars growing taller = momentum increasing. Bars shrinking = momentum fading, even before a crossover happens.
 - **Divergence:** Price makes a new high but MACD makes a lower high (or the reverse at lows). This warns the trend may be tired. (Same idea as RSI — Relative Strength Index, another momentum tool.)
 
+![The fast MACD line and slower Signal line pulling apart (diverging) as the move strengthens, then coming back together (converging) as it fades.](/diagrams/macd-1.svg)
+
+![The MACD line starting below the Signal line and crossing above it, marked as a bullish crossover.](/diagrams/macd-2.svg)
+
+![The MACD line moving from below zero to above zero, showing the zero-line cross into uptrend momentum.](/diagrams/macd-3.svg)
+
+![MACD histogram bars growing taller as momentum increases, then shrinking as momentum fades, all before any crossover.](/diagrams/macd-4.svg)
+
+![Price making a new high while the MACD line makes a lower high — a divergence warning the trend may be tired.](/diagrams/macd-5.svg)
+
 ## 🔍 Example
 Imagine a stock called BazaarMart at ₹100.
 
@@ -50,14 +60,11 @@ Imagine a stock called BazaarMart at ₹100.
 - Then buyers step in. The histogram bars start shrinking (fading downward momentum).
 - Next, the MACD line crosses **above** the Signal line. That is a bullish crossover.
 - A few days later the MACD line crosses above zero too. Now momentum agrees with the up-move.
-
-```
-Price:      \___ ₹100 ___/-- rising
-MACD line:  \____ crosses UP over signal
-Histogram:  ▄▂ (down)  ▁▂▄ (turning up)
-Zero line:  ----- MACD moves above -----
-```
 - A trader who also saw price break above a small resistance (a price roof it kept failing at) had two clues, not one. Two clues are safer than one.
+
+![BazaarMart's price falling to ₹100 as buyers step in, then breaking above a small resistance on the way back up.](/diagrams/macd-6.svg)
+
+![BazaarMart's MACD histogram bars shrinking as downward momentum fades, then turning positive as the MACD line crosses above the Signal line and later above zero.](/diagrams/macd-7.svg)
 
 ## ⚠️ Common mistakes
 - **Trading every crossover.** In a flat, choppy (sideways, no clear trend) market MACD gives many false crossovers. It works best in a trending market.
@@ -65,6 +72,10 @@ Zero line:  ----- MACD moves above -----
 - **Using MACD alone.** Always check price structure — the actual highs, lows, support and resistance on the chart.
 - **Ignoring the zero line.** A crossover far below zero is weaker than one that also pushes above zero.
 - **Changing the settings too soon.** Learn the default 12, 26, 9 first before you tweak numbers.
+
+![A histogram flipping back and forth above and below zero in a flat, choppy market, producing many false crossovers.](/diagrams/macd-8.svg)
+
+![The MACD line crossing above the Signal line while both are still below zero (a weaker crossover), then pushing on above the zero line too (a stronger one).](/diagrams/macd-9.svg)
 
 ## ✅ Key takeaways
 - MACD = MACD line, Signal line, and Histogram, built from 12, 26 and 9 EMAs.

@@ -45,6 +45,14 @@ This is the most important part. Buy a dip, not a falling knife.
 - **Reversal** — deep, fast, ugly. It slices through support and makes a **lower low** (a bottom below the last bottom). The uptrend is broken. Stay out.
 - Simple rule: if the dip breaks the last low, it is not a pullback anymore.
 
+![A price stepping up in an uptrend with two pullbacks along the way, each pullback holding above the prior low (higher highs and higher lows) before the climb resumes.](/diagrams/pullback-strategy-1.svg)
+
+![A flow diagram of the 5 rules for buying a pullback in order: confirm the uptrend, wait for the dip to support, wait for a reversal candle, place the stop below the dip low, then set a target or trail it.](/diagrams/pullback-strategy-2.svg)
+
+![A healthy pullback: a shallow, orderly dip that holds above the prior low and stops right at the support zone before the uptrend resumes.](/diagrams/pullback-strategy-3.svg)
+
+![A reversal, not a pullback: a deep, fast drop that slices straight through the old support zone and makes a lower low than the prior low.](/diagrams/pullback-strategy-4.svg)
+
 ## 🔍 Example
 A stock is in a clear uptrend.
 - It rises from ₹100 to ₹120. Then it pauses and dips.
@@ -54,13 +62,9 @@ A stock is in a clear uptrend.
 - You **target ₹130** (the prior high, plus a little). Reward = ₹20.
 - Risk-reward = ₹2 risked to make ₹20. That is far better than buying at ₹120.
 
-```
-120        /\        <- prior high (target zone)
-      /\  /  \  /
-110  /  \/    \/     <- pullback to support = ENTRY
-    /
-100/                 <- trend start
-```
+![The full worked example: price rises from ₹100 to a ₹120 prior high, pulls back to the ₹110 old support zone (the entry), with a ₹108 stop-loss just below, aiming for a ₹130 target.](/diagrams/pullback-strategy-5.svg)
+
+![A risk-reward bracket for the example trade: buy at ₹110, stop-loss at ₹108, target at ₹130, a 1:10 risk-to-reward ratio.](/diagrams/pullback-strategy-6.svg)
 
 ## ⚠️ Common mistakes
 - **Buying while price is still dropping.** Wait for the green reversal candle first.
@@ -68,6 +72,8 @@ A stock is in a clear uptrend.
 - **Ignoring a broken low.** A lower low means reversal — that is not your setup.
 - **Stop-loss too tight or missing.** No stop = one dip can wipe out your money.
 - **As a beginner, going short.** Selling the bounce in a downtrend is the reverse of this. It is harder and riskier — stay long-only until experienced.
+
+![The premature-entry mistake: buying while price is still falling, before it keeps dropping further and only later prints the reversal candle you should have waited for.](/diagrams/pullback-strategy-7.svg)
 
 ## ✅ Key takeaways
 - Buy the dip inside an uptrend, not a random fall.

@@ -60,6 +60,14 @@ A crossover is when one MA crosses another. Traders watch two big ones.
 - These are slow, big-picture signals — not a promise. They can arrive late.
 - **MAs are lagging indicators.** "Lagging" means they follow price; they never predict it. The move happens first, the line reacts after.
 
+![A jagged raw daily price line next to its calm moving-average line, showing how the average smooths out day-to-day noise](/diagrams/moving-averages-1.svg)
+
+![Two moving averages tracking the same sudden price jump, with the EMA catching up to the new price faster than the slower, steadier SMA](/diagrams/moving-averages-2.svg)
+
+![A rising 50-day moving average crossing above a flatter 200-day moving average, marking a Golden Cross](/diagrams/moving-averages-3.svg)
+
+![A falling 50-day moving average crossing below a flatter 200-day moving average, marking a Death Cross](/diagrams/moving-averages-4.svg)
+
 ## 🔍 Example
 A stock is in a clear uptrend. Its price is riding above a rising 50-day EMA.
 
@@ -68,15 +76,7 @@ A stock is in a clear uptrend. Its price is riding above a rising 50-day EMA.
 - Buyers see the trend is still up and step in near the line. Price bounces back to ₹115.
 - The 50 EMA acted as dynamic support — a floor that moves up with the trend.
 
-```
- Price
- 120 |    /\
-     |   /  \      /  <- bounce
- 110 |  /    \    /
- 100 | /   -- EMA (support) --
-     |/
-     +--------------------- time
-```
+![Price climbing to ₹120, pulling back and drifting down to the 50 EMA near ₹100, then bouncing back up to ₹115](/diagrams/moving-averages-5.svg)
 
 ## ⚠️ Common mistakes
 - **Trading in a flat market.** When price is sideways, MAs whipsaw (give many false buy/sell signals). Wait for a clear slope.
@@ -84,6 +84,8 @@ A stock is in a clear uptrend. Its price is riding above a rising 50-day EMA.
 - **Expecting the MA to predict.** It lags. It confirms a trend; it does not call the top or bottom.
 - **Using only one number.** A signal on the 20 MA can clash with the 200 MA. Check the bigger picture too.
 - **Chasing every crossover.** Golden and Death Crosses come late and can reverse.
+
+![Choppy sideways price crossing back and forth over a flat moving average, triggering repeated false buy/sell signals](/diagrams/moving-averages-6.svg)
 
 ## ✅ Key takeaways
 - An MA smooths price into a line so you can see the trend.

@@ -66,18 +66,17 @@ Here are the common moats, with a simple picture for each.
 - **Narrow moat** — a small advantage that could fade. Watch it closely.
 - **No moat** — anyone can copy it. Profit is easy to lose.
 
+![Bar chart illustrating how a company with a moat keeps its profit high when rivals attack, while a company with no moat sees its profit shrink fast.](/diagrams/understanding-a-business-and-moats-1.svg)
+
+![Bar chart comparing the three moat strengths: a wide moat is a strong, lasting advantage, a narrow moat could fade, and no moat is easy to lose.](/diagrams/understanding-a-business-and-moats-2.svg)
+
 ## 🔍 Example
 Imagine two tea companies.
 
 - **Chai Rani** — a trusted brand for 30 years. People pay ₹120 for its pack even though a plain pack costs ₹100.
 - **Fresh Leaf** — new, unknown, sells only on low price at ₹95.
 
-```
-Product     Price    Why people buy       Moat
----------   ------   ------------------   --------------
-Chai Rani   ₹120     Trust + habit        Wide (brand)
-Fresh Leaf  ₹ 95     Cheapest today       None yet
-```
+![Bar chart comparing Chai Rani at ₹120, sold on trust and habit with a wide brand moat, against Fresh Leaf at ₹95, sold on being the cheapest with no moat yet.](/diagrams/understanding-a-business-and-moats-3.svg)
 
 - Chai Rani earns ₹20 extra per pack purely because of trust. That is the brand moat working.
 - If costs rise, Chai Rani can raise its price a little and people still buy.

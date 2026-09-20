@@ -52,19 +52,16 @@ Big moves usually pass through four stages, like the seasons.
 - Fighting the trend is like paddling against a strong river — tiring and often a loss.
 - A trend does not last forever. "Friend" until it bends and ends.
 
+![Price line chart of an uptrend making three higher lows and three higher highs in a row](/diagrams/trends-up-down-and-sideways-1.svg)
+
+![Price line chart of a downtrend making three lower highs and three lower lows in a row](/diagrams/trends-up-down-and-sideways-2.svg)
+
+![Price line chart of a sideways range bouncing between a floor (support) and a ceiling (resistance) with no higher high or higher low forming](/diagrams/trends-up-down-and-sideways-3.svg)
+
+![Flow diagram of the four market phases in order: accumulation, uptrend (markup), distribution, downtrend (markdown)](/diagrams/trends-up-down-and-sideways-4.svg)
+
 ## 🔍 Example
 Stock ABC over several weeks, price in Rupees:
-
-```
-Uptrend (higher highs, higher lows)
-
-                 120  ← HH
-            110       
-       100  ← HH   \        
-   90        \      95 ← HL
-    \    85         
- 80  ← HL          
-```
 
 - First dip stopped at 80, next dip at 85, next at 95 — each **higher low**.
 - First peak 100, next peak 120 — each **higher high**.
@@ -72,12 +69,20 @@ Uptrend (higher highs, higher lows)
 
 Now imagine ABC stops climbing and just bounces between 110 (floor) and 125 (ceiling) for weeks. That is a **range**. Here the tactic flips: buy nearer 110, sell nearer 125 — until price breaks out of the box.
 
+![Price line chart of ABC stock's uptrend: a dip at ₹80, a peak at ₹100, a higher dip at ₹85, a higher peak at ₹120, and a higher dip at ₹95](/diagrams/trends-up-down-and-sideways-5.svg)
+
+![Price line chart of ABC stock bouncing sideways in a range between a ₹110 floor and a ₹125 ceiling](/diagrams/trends-up-down-and-sideways-6.svg)
+
 ## ⚠️ Common mistakes
 - **Buying in a downtrend** hoping to "catch the bottom." The bottom is hard to catch.
 - **Not naming the timeframe.** A stock can be an uptrend on the daily chart but a downtrend on the 5-minute chart. Always say which one you mean.
 - **Using range tactics in a trend** (selling early) or **trend tactics in a range** (holding for a big move that never comes).
 - **Seeing a trend that isn't there** — one big candle is not a trend. Wait for the HH/HL pattern to form.
 - **Assuming trends last forever.** They change. Watch for the pattern breaking.
+
+![Price line chart of a downtrend where a trader buys hoping to catch the bottom, but price only bounces briefly before falling to a new lower low](/diagrams/trends-up-down-and-sideways-7.svg)
+
+![Candlestick chart of four small choppy candles, one big candle, then a sharp pullback candle that gives back most of the move — showing that a single big candle does not confirm a real trend](/diagrams/trends-up-down-and-sideways-8.svg)
 
 ## ✅ Key takeaways
 - Every market is either up, down, or sideways.

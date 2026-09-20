@@ -50,20 +50,10 @@ An edge is why your system makes money over time.
 - You do NOT need to win every trade. Even good systems lose often.
 - Like a cricket batsman: not every ball is a boundary, but the average score wins the match.
 
+![A five-step flow diagram of a trading system's core parts in sequence: Setup, Entry Trigger, Stop-Loss, Exit / Target, and Position Size.](/diagrams/building-your-trading-system-1.svg)
+
 ## 🔍 Example
 Here is a simple, made-up system. Yours can look like this.
-
-```
-MARKET   : Nifty 50 stocks (NSE)
-TIMEFRAME: Daily chart
-SETUP    : Price above 50-day average, then a small pullback
-ENTRY    : Buy when price closes back above yesterday's high
-CONFIRM  : Volume higher than the day before
-STOP     : Just below the pullback low
-TARGET   : 2x the risk, then trail
-RISK     : 1% of account per trade
-AVOID    : Result-day / budget-day news
-```
 
 Now the maths on one trade:
 - Account = ₹1,00,000. Risk per trade = 1% = ₹1,000.
@@ -71,6 +61,12 @@ Now the maths on one trade:
 - Shares to buy = ₹1,000 ÷ ₹10 = **100 shares**.
 - If the stop hits, you lose ₹1,000. If target (₹520) hits, you make ₹2,000.
 - Over 10 trades, even winning only 5, this can still grow your money. That is the edge.
+
+![A five-step flow diagram of the example system: Setup (pullback near the 50-day average), Entry (close above the prior day's high), Stop (below the pullback low), Target (2x the risk, then trail), and Risk (1% of account per trade).](/diagrams/building-your-trading-system-2.svg)
+
+![A risk:reward bracket for the one-trade example: entry at ₹500, stop-loss at ₹490, target at ₹520, showing a 1:2 risk-to-reward ratio.](/diagrams/building-your-trading-system-3.svg)
+
+![A bar comparison of the 10-trade edge example: 5 winning trades totalling +₹10,000, 5 losing trades totalling -₹5,000, and a net result of +₹5,000, showing how winning only half the trades can still grow the account.](/diagrams/building-your-trading-system-4.svg)
 
 ## ⚠️ Common mistakes
 - Keeping the system only in your head. Rules not written down get broken.

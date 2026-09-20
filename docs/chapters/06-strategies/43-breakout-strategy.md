@@ -45,15 +45,17 @@ Pick the style that suits you. Both are fine.
 - **Aggressive entry:** buy as soon as the strong candle closes above the level. Faster, but riskier.
 - **Safer entry (the retest):** wait. Often price comes *back down* to touch the old ceiling, then bounces up from it. This is a **retest** — the old ceiling now acts as a floor. Buying here is calmer and safer. (See the Breakout & Retest chapter, prerequisite 21.)
 
+![A price stuck bouncing between a ₹80 floor and a ₹100 ceiling for several weeks before finally closing above the ceiling to complete a breakout.](/diagrams/breakout-strategy-1.svg)
+
+![A flow diagram of the 5 rules for a breakout trade in order: mark the level, wait for close, check volume, set stop-loss, set target.](/diagrams/breakout-strategy-2.svg)
+
+![The aggressive entry style: price closes above the ₹100 ceiling at ₹104 and the trader buys immediately on that close.](/diagrams/breakout-strategy-3.svg)
+
+![The safer retest entry style: price closes above ₹100 at ₹104, drifts back down to retest the old ceiling, then bounces and is bought at ₹101.](/diagrams/breakout-strategy-4.svg)
+
 ## 🔍 Example
 
 A stock is stuck under ₹100 for weeks. The range floor is ₹80.
-
-```
-₹100 ── ceiling ──●──●──●──  <- price keeps failing here
-      (stuck sideways)
-₹80  ── floor ────────────
-```
 
 - Range height = ₹100 − ₹80 = **₹20**.
 - One day a big green candle *closes* at ₹104 on **double the normal volume**. Real breakout.
@@ -62,12 +64,18 @@ A stock is stuck under ₹100 for weeks. The range floor is ₹80.
 - **Target (measured move):** add the range height to the breakout point. ₹100 + ₹20 = **₹120**. Reward = ₹19.
 - So you risk ₹4 to aim for ₹19. A healthy trade — but it can still fail.
 
+![The full worked example: price stuck between a ₹80 floor and ₹100 ceiling for weeks, closing at ₹104 on double volume, retesting the old ceiling, being bought at ₹101 with a ₹97 stop-loss, aiming for a ₹120 measured-move target.](/diagrams/breakout-strategy-5.svg)
+
+![A risk-reward bracket for the example trade: buy at ₹101, stop-loss at ₹97, target at ₹120, an approximate 1:4.8 risk-to-reward ratio.](/diagrams/breakout-strategy-6.svg)
+
 ## ⚠️ Common mistakes
 - **Buying the poke, not the close.** Price touches ₹101 then drops to ₹95. Wait for the *close*.
 - **Ignoring volume.** A breakout on low volume is weak and often fake. (See the Volume chapter, prerequisite 29.)
 - **Chasing a stock that ran too far.** If it is already ₹115, the good entry is gone. Skip it.
 - **No stop-loss.** Never trade a breakout without one. Traps happen to everyone.
 - **Trusting breakouts late in the day on thin (low-volume) stocks.** These fake out easily.
+
+![A false breakout trap: price pokes above the ₹100 ceiling to ₹101 without closing there, then fails and drops back to ₹95.](/diagrams/breakout-strategy-7.svg)
 
 ## ✅ Key takeaways
 - A breakout = price escaping a clear, well-tested level.

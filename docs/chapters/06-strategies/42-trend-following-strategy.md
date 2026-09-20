@@ -48,6 +48,14 @@ Follow these in order, like a checklist. Do not skip steps.
 - Struggles in **choppy, sideways markets** — you get faked out again and again. When in doubt, sit out.
 - For a downtrend, flip the rules and short-sell (bet on a fall). But most beginners start **long-only** (buy only). That is fine.
 
+![Uptrend price path making higher highs and higher lows, with each peak and each dip climbing above the one before it.](/diagrams/trend-following-strategy-1.svg)
+
+![Downtrend price path making lower highs and lower lows, with each peak and each dip sitting below the one before it.](/diagrams/trend-following-strategy-2.svg)
+
+![Sideways price path wiggling inside a flat range with no higher-high/higher-low or lower-high/lower-low structure.](/diagrams/trend-following-strategy-3.svg)
+
+![Flow diagram of the 5-rule checklist in order: confirm the uptrend, wait for pullback, enter on trigger, set stop-loss, set target or trail.](/diagrams/trend-following-strategy-4.svg)
+
 ## 🔍 Example
 Stock "ABC" is in a clean uptrend, price above a rising 50 EMA.
 - Price dips to the 50 EMA at ₹100 (Rule 2 — the pullback).
@@ -55,16 +63,9 @@ Stock "ABC" is in a clean uptrend, price above a rising 50 EMA.
 - Recent swing low is ₹95, so **stop-loss at ₹95** (Rule 4). Risk = ₹5 per share.
 - Next resistance is ₹115, so **target ₹115** (Rule 5). Reward = ₹15 per share.
 - **Risk-reward = 5 : 15 = 1 : 3.** You risk ₹5 to try for ₹15.
-
-```
-Price
-115 |          ● target
-    |        /
-100 |  ●----/   entry (dip to EMA)
- 95 |  ---     stop (below swing low)
-    +----------------> time
-```
 - If it hits ₹95 first, you lose ₹5 and walk away calmly. That is a normal cost of business.
+
+![The ABC trade plotted as entry at ₹100, stop-loss at ₹95, and target at ₹115, showing the resulting 1:3 risk-reward ratio.](/diagrams/trend-following-strategy-5.svg)
 
 ## ⚠️ Common mistakes
 - **Chasing** — buying after price has already jumped far, with no pullback. You pay too high.
@@ -72,6 +73,10 @@ Price
 - **No stop-loss** — hoping a losing trade turns around. Hope is not a plan.
 - **Fighting the trend** — buying in a downtrend because it "looks cheap".
 - **Breaking your own rules** — moving the stop lower to avoid a loss. Follow the plan mechanically.
+
+![Price chart of a chased entry bought after a big run-up with no pullback, followed by a correction that punishes the late, too-high entry.](/diagrams/trend-following-strategy-6.svg)
+
+![Price chart of a stop-loss moved lower to avoid a loss, with price continuing to fall past the moved stop into a bigger loss than the original plan.](/diagrams/trend-following-strategy-7.svg)
 
 ## ✅ Key takeaways
 - Trade **with** the trend, not against it.

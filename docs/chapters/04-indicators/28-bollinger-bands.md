@@ -49,25 +49,20 @@ How price uses the bands depends on the market mood.
 - In a strong **trend** (price steadily going one way), price can **"ride the band"** — hugging the upper band while going up, or the lower band while going down.
 - Same tool, two very different messages. Always check the bigger structure first.
 
+![Bollinger Bands widening into a wide channel during a wild, choppy stretch of price, then pinching into a narrow squeeze once the market goes calm — the squeeze warns a move may be coming but not which direction.](/diagrams/bollinger-bands-1.svg)
+
+![Price bouncing off the upper band and the lower band while moving sideways in a range, then breaking into a trend where it rides tucked against the upper band instead of bouncing back.](/diagrams/bollinger-bands-2.svg)
+
 ## 🔍 Example
 
 Imagine a stock trading near ₹100.
-
-```
-Price
-110 |            .-''-. upper (riding)
-105 |   ___     /
-100 |__/   \___/  <- squeeze (bands tight)
- 95 |            \
- 90 |             '--. lower
-    +--------------------> time
-      calm      breakout
-```
 
 - For weeks price sits around ₹100. The bands squeeze tight to ₹98–₹102. Very calm.
 - Then buyers step in. Price jumps to ₹105, then ₹110. The bands widen fast.
 - Price now **rides the upper band** as the uptrend runs.
 - A beginner who sold at the first upper-band touch (₹104) missed the whole move. In a trend, touching the top is *normal*, not a sell signal.
+
+![Bands squeezed tight to ₹98–₹102 for weeks around ₹100, then widening fast as price jumps to ₹104 (where a beginner sells and exits), then ₹105, then ₹110, riding the upper band the whole way.](/diagrams/bollinger-bands-3.svg)
 
 ## ⚠️ Common mistakes
 - Treating an upper-band touch as an automatic **sell** (or lower-band touch as an automatic buy). In a trend this is wrong.

@@ -52,19 +52,20 @@ These touch every company at once.
 - **Inflation** (prices rising over time) — costs go up, and buyers have less to spend.
 - **Overall economy** — when people earn and spend more, most businesses do better.
 
+![Three sequential layers of analysis: management (the company's own crew), industry (the tide it floats on), and macro factors (the weather over the whole economy).](/diagrams/management-and-industry-analysis-1.svg)
+
+![Bar comparison showing a tailwind (like a new subsidy) pushing an industry forward versus a headwind (like a new tax or ban) pushing it back.](/diagrams/management-and-industry-analysis-2.svg)
+
 ## 🔍 Example
 
 Two companies, both earning ₹10 crore profit today.
-
-```
-Company A: makes typewriters  → industry SHRINKING
-Company B: makes solar panels → industry GROWING
-```
 
 - Company A is well run but sells a product fewer people want each year. Even great managers can't stop the falling tide. Profit likely drops.
 - Company B is only decent, but demand for solar rises every year. The rising tide lifts it. Profit likely grows.
 
 Same profit today, very different futures. The **industry** made much of the difference.
+
+![Line chart showing Company A (typewriters, shrinking industry) and Company B (solar panels, growing industry) both starting at ₹10 crore profit today, then diverging — A's profit trending down, B's trending up.](/diagrams/management-and-industry-analysis-3.svg)
 
 ## ⚠️ Common mistakes
 - Judging only the numbers and ignoring the people running the show.
@@ -72,6 +73,8 @@ Same profit today, very different futures. The **industry** made much of the dif
 - Thinking a cyclical dip means the company is broken — it may just be a low season.
 - Ignoring debt because profits look nice today.
 - Forgetting that interest rates and the economy move all stocks together.
+
+![Line chart of a cyclical industry (like steel or cars) moving through boom, slump, recovery, and boom again, with the slump marked as a low season rather than a broken company.](/diagrams/management-and-industry-analysis-4.svg)
 
 ## ✅ Key takeaways
 - Check the crew (management) AND the tide (industry) — both matter.

@@ -59,21 +59,25 @@ It all comes down to two words.
 - More sellers than buyers → price goes **down**.
 - Just like a popular street food stall can raise its price when a crowd lines up.
 
+![Donut chart showing that owning 10 of a company's 1,000 shares makes you a small part-owner, with the remaining 990 held by other shareholders.](/diagrams/what-is-the-stock-market-1.svg)
+
+![Flow diagram of a share's life cycle: a company issues an IPO, an investor buys shares in the primary market, then later resells them, continuing as secondary market trading.](/diagrams/what-is-the-stock-market-2.svg)
+
+![Bar comparison showing that more buyers than sellers makes the price rise, while more sellers than buyers makes the price fall.](/diagrams/what-is-the-stock-market-3.svg)
+
 ## 🔍 Example
 Meet a company called "SunnyChai Ltd".
 - SunnyChai wants ₹100 in new money to open a new tea shop.
 - It splits itself into 10 shares and sells them in an IPO at ₹10 each. (This is the **primary market**.)
 - You buy 1 share for ₹10. You now own 1/10 of SunnyChai.
-- A year later, more people want SunnyChai shares than want to sell them.
-
-```
-Buyers:  😀😀😀😀😀   (5 want in)
-Sellers: 😐           (1 wants out)
-  -> more demand -> price rises
-```
+- A year later, more people want SunnyChai shares than want to sell them — say, 5 buyers show up for every 1 seller.
 
 - The price rises to ₹15. You could sell your 1 share to another person for ₹15. (This is the **secondary market**.)
 - Your ₹10 grew to ₹15. But note: if buyers had disappeared instead, the price could have dropped to ₹6.
+
+![Bar comparison showing 5 SunnyChai buyers wanting in against only 1 seller wanting out, the imbalance that pushes the price up.](/diagrams/what-is-the-stock-market-4.svg)
+
+![Bar comparison of SunnyChai's two possible outcomes: demand rising sends ₹10 to ₹15, while demand falling could have sent ₹10 to ₹6.](/diagrams/what-is-the-stock-market-5.svg)
 
 ## ⚠️ Common mistakes
 - Thinking a share is a lottery ticket. It is part-ownership of a real business.
@@ -81,6 +85,8 @@ Sellers: 😐           (1 wants out)
 - Confusing the IPO (primary market) with daily trading (secondary market).
 - Assuming the stock market has no rules. It is closely watched and regulated.
 - Expecting quick, guaranteed money. There is no such thing here.
+
+![Line chart contrasting the myth that prices only climb in a straight line with the reality that real prices rise and fall along the way.](/diagrams/what-is-the-stock-market-6.svg)
 
 ## ✅ Key takeaways
 - A share is a small piece of a company.

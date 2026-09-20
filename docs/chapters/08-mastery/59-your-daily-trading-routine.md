@@ -55,6 +55,8 @@ After close (in India, after 3:30 PM), spend a few minutes learning from the day
 - Prepare tomorrow's watchlist.
 - **Once a week**, read your journal for the whole week. Look for repeating mistakes and fix one thing.
 
+![Flowchart of the daily trading routine: prepare before the market opens, act calmly while it's open, review after it closes, and reflect on the whole week once a week.](/diagrams/your-daily-trading-routine-1.svg)
+
 ## 🔍 Example
 Ravi has a full-time job, so he keeps it light.
 
@@ -67,13 +69,11 @@ Day: Stock A drops to ₹101. He buys. It falls to ₹98 and his stop-loss trigg
 
 Evening (10 min): He journals it.
 
-```
-Trade: Stock A
-Bought: 101 | Stop: 98 | Result: -300
-Note: Entry was fine. Loss was planned. No panic. Good discipline.
-```
-
 He lost money but followed his rules. That is a good trading day.
+
+![Risk-reward diagram of Ravi's planned Stock A trade: buy at ₹101, stop-loss at ₹98, target at ₹108, giving roughly a 1:2.3 risk-reward ratio.](/diagrams/your-daily-trading-routine-2.svg)
+
+![Price chart of what actually happened to Stock A: bought at ₹101 between the ₹100 support and ₹110 resistance, then stopped out at ₹98 for a ₹300 loss that hit Ravi's daily loss limit.](/diagrams/your-daily-trading-routine-3.svg)
 
 ## ⚠️ Common mistakes
 - Watching too many stocks. You cannot focus on 50. Keep 5 to 10.

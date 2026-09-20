@@ -48,28 +48,21 @@ An **edge** is a small advantage that makes you win a little more than you lose,
 - The danger: one undisciplined trade with too much risk can wipe out months of steady gains.
 - So protecting your money matters more than chasing a big win.
 
+![Donut chart showing 1% of capital at risk on a single trade and 99% protected, illustrating the rule of risking the same small amount every time](/diagrams/discipline-and-consistency-1.svg)
+
 ## 🔍 Example
 Riya has a small edge. On average she makes ₹300 when right and loses ₹200 when wrong. She is right a little more than half the time.
 
 - She risks the **same** small amount every trade and takes 100 trades.
 - Slowly, her account grows. Nothing dramatic — just steady, boring progress.
 
-```
-Trade 1 ... +small
-Trade 2 ... -small
-Trade 3 ... +small     <- boring, steady, growing
-...
-Total after 100: nicely up
-```
-
 Then, on trade 50, she gets angry after a loss. She thinks: *"just this once."* She risks 10 times her normal amount to "win it back." The trade goes wrong.
 
-```
-One angry trade -> BIG loss
-Wipes out ~40 careful trades of profit
-```
-
 Same trader. Same edge. The **only** difference was breaking her own rule once.
+
+![Price line chart of Riya's cumulative profit and loss over 100 trades, rising in small steady steps from ₹0 to about ₹4,000 with minor dips along the way, ending "nicely up"](/diagrams/discipline-and-consistency-2.svg)
+
+![Bar comparison chart showing 49 careful trades of steady profit on one side, and a single revenge trade risking 10 times the normal amount wiping that profit out on the other side](/diagrams/discipline-and-consistency-3.svg)
 
 ## ⚠️ Common mistakes
 - Thinking "just this once" — that one exception is what breaks most beginners.

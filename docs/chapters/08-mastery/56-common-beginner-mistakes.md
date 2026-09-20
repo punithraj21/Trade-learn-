@@ -48,18 +48,17 @@ Small habit mistakes that quietly drain your results.
 - **Ignoring costs and taxes** (brokerage, fees, and tax on gains, like in India). Fix: subtract all costs before you judge a trade as a "profit".
 - **Not journaling or reviewing.** Fix: keep a **journal** (a notebook of every trade and why you made it). Review it weekly.
 
+![A donut chart showing the 1-2% rule: only 2% of your total capital is risked on any one trade, leaving 98% protected.](/diagrams/common-beginner-mistakes-1.svg)
+
 ## 🔍 Example
 Two friends start with ₹1,00,000 each.
 
 - **Ravi** buys with no stop-loss and puts ₹50,000 into one "hot tip". The stock falls 40%. He loses ₹20,000 on one trade.
 - **Meena** risks only 2% (₹2,000) per trade with a stop-loss. Even after a bad trade, she loses just ₹2,000 and stays in the game.
 
-```
-Ravi:  1 big bet, no stop  -> -₹20,000  (hurt badly)
-Meena: small bet + stop    -> -₹2,000   (still trading)
-```
-
 Meena did not "win" — she survived. Survival is the first skill.
+
+![A bar chart comparing Ravi's ₹20,000 loss from one oversized, stop-loss-free bet against Meena's ₹2,000 loss from a 2%-risk trade with a stop-loss, both starting from ₹1,00,000.](/diagrams/common-beginner-mistakes-2.svg)
 
 ## ⚠️ Common mistakes
 - Believing you are the exception to these rules — everyone thinks that.
@@ -67,6 +66,8 @@ Meena did not "win" — she survived. Survival is the first skill.
 - Skipping the journal because it feels boring.
 - Counting a trade as profit before removing costs and taxes.
 - Copying a strategy you have not tested yourself.
+
+![A bar chart illustrating how brokerage, fees, and taxes shrink an illustrative ₹5,000 gross profit down to ₹3,200 after costs, showing why gross profit isn't real profit.](/diagrams/common-beginner-mistakes-3.svg)
 
 ## ✅ Key takeaways
 - Always set a stop-loss before you buy.

@@ -48,6 +48,18 @@ You cannot delete emotions. But you can build fences around them.
 - **Take breaks and set a daily loss limit** — after 2 losses, stop for the day. Walk away. Come back fresh.
 - **Focus on process, not outcome** — a good trade can still lose, and a bad trade can still win by luck. Judge yourself on following your rules, not on one result.
 
+![A price chart where the trader exits after a small early dip out of fear, only to watch the price recover and climb higher without them.](/diagrams/trading-psychology-1.svg)
+
+![A price chart where a winning trade is held past its peak out of greed until the profit turns into a loss.](/diagrams/trading-psychology-2.svg)
+
+![A price chart where the trader buys near the top after a sharp jump — FOMO — right before the price pulls back.](/diagrams/trading-psychology-3.svg)
+
+![A price chart where a small loss is left to grow into a much bigger loss because the trader keeps hoping it will recover.](/diagrams/trading-psychology-4.svg)
+
+![A bar chart showing four small winning trades followed by one oversized bet that wipes out all four wins.](/diagrams/trading-psychology-5.svg)
+
+![A five-step flow diagram of the routine for staying in control: written plan, 1% position sizing, trading journal, breaks and a loss limit, and judging process over outcome.](/diagrams/trading-psychology-6.svg)
+
 ## 🔍 Example
 
 Riya starts with ₹1,00,000. Her plan: risk only 1% (₹1,000) per trade.
@@ -56,14 +68,11 @@ She loses two trades in a row (−₹2,000). She feels angry and wants revenge.
 
 Instead of following her plan, she thinks: *"I'll bet big and win it all back."*
 
-```
-Plan says:   risk ₹1,000  (1%)
-Revenge says: risk ₹20,000 (20%)  ← FEAR + GREED talking
-```
-
 If she follows revenge and loses, she is down ₹22,000 — hard to recover.
 
 Riya instead closes her laptop, takes a walk, and stops for the day. Next morning she is calm and back to her ₹1,000 rule. She protected her account. That is a **win** — even though today ended red.
+
+![A bar chart comparing Riya's planned risk of ₹1,000 (1%) per trade against the ₹20,000 (20%) revenge bet she considered — twenty times her plan.](/diagrams/trading-psychology-7.svg)
 
 ## ⚠️ Common mistakes
 - Buying only because the price is "going up fast" (that is FOMO).

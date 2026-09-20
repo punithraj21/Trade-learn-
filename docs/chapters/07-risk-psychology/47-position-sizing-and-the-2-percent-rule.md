@@ -47,6 +47,10 @@ Two easy steps. Use a calculator, no shame in it.
 - Entry price is where you buy. Stop price is where you sell if wrong.
 - The gap between them is your **risk per share** (loss on each share if the stop hits).
 
+![Donut chart showing the 2% rule: only 2% of the account is put at risk on one trade, the other 98% stays untouched.](/diagrams/position-sizing-and-the-2-percent-rule-1.svg)
+
+![Flow diagram of the position sizing formula: account size times risk percent gives the risk amount, then risk amount divided by risk per share gives the number of shares.](/diagrams/position-sizing-and-the-2-percent-rule-2.svg)
+
 ## 🔍 Example
 
 You have an account of ₹1,00,000. You use the 2% rule.
@@ -58,12 +62,6 @@ You have an account of ₹1,00,000. You use the 2% rule.
 - Shares = 2,000 ÷ 10 = **200 shares**
 - Position value = 200 × 100 = ₹20,000
 
-```
-Buy 100 ─────────── Stop 90
-        gap = 10/share
-        2000 / 10 = 200 shares
-```
-
 **Trade B — tighter stop**
 - Same ₹2,000 risk. Same buy price ₹100.
 - But stop is at ₹95, so risk per share = 100 − 95 = **₹5**
@@ -73,12 +71,16 @@ Buy 100 ─────────── Stop 90
 - A wider stop means FEWER shares. Your loss stays ₹2,000 either way.
 - The stop distance changes the share count, never your money at risk.
 
+![Bar chart comparing Trade A and Trade B: both risk the same ₹2,000 on a ₹1,00,000 account buying at ₹100, but Trade A's ₹90 stop allows 200 shares while Trade B's tighter ₹95 stop allows 400 shares.](/diagrams/position-sizing-and-the-2-percent-rule-3.svg)
+
 ## ⚠️ Common mistakes
 - **Buying by feeling.** "I feel sure" is not a number. Confidence does not size a trade; risk does.
 - **Buying all you can afford.** Having ₹1,00,000 does not mean putting it all in one stock.
 - **Ignoring the stop.** Without a stop price, the formula cannot work and losses have no limit.
 - **Widening the stop to buy more.** Move the stop only for real chart reasons, then re-do the maths.
 - **Risking 10% or more per trade.** A few losses in a row can then destroy the account.
+
+![Bar chart showing the widened-stop mistake: keeping the same 200 shares from Trade A but moving the stop from ₹90 to ₹85 pushes the risk from ₹2,000 (2%) to ₹3,000 (3%), breaking the 2% rule.](/diagrams/position-sizing-and-the-2-percent-rule-4.svg)
 
 ## ✅ Key takeaways
 - Size every trade by risk, not by confidence or by how much you can afford.
