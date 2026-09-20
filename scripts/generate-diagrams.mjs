@@ -74,7 +74,7 @@ function priceLine(spec) {
   const points = spec.points; // [{label, value}]
   const allValues = [
     ...points.map((p) => p.value),
-    ...(spec.overlays ?? []).flatMap((o) => o.points.map((p) => p.value)),
+    ...(spec.overlays ?? []).flatMap((o) => o.points), // overlays[].points is a plain number array
     ...(spec.levels ?? []).map((l) => l.value),
   ];
   const min = spec.yMin ?? Math.min(...allValues);
@@ -89,6 +89,8 @@ function priceLine(spec) {
 
   const pathD = (pts) =>
     pts.map((p, i) => `${i === 0 ? "M" : "L"} ${x(i).toFixed(1)} ${y(p.value).toFixed(1)}`).join(" ");
+  const pathDValues = (vals) =>
+    vals.map((v, i) => `${i === 0 ? "M" : "L"} ${x(i).toFixed(1)} ${y(v).toFixed(1)}`).join(" ");
 
   let svg = "";
 
@@ -113,7 +115,7 @@ function priceLine(spec) {
     const ly = y(l.value);
     const stroke = l.kind === "resistance" ? CRITICAL : l.kind === "support" ? ACCENT_1 : INK_MUTED;
     svg += `<line x1="${padL}" y1="${ly.toFixed(1)}" x2="${width - padR}" y2="${ly.toFixed(1)}" stroke="${stroke}" stroke-width="1.5" stroke-dasharray="5 4"/>`;
-    svg += `<text x="${padL - 6}" y="${(ly + 3).toFixed(1)}" font-size="10" text-anchor="end" fill="${INK_MUTED}">${esc(l.label ?? l.value)}</text>`;
+    svg += `<text x="${(padL + 6).toFixed(1)}" y="${(ly - 4).toFixed(1)}" font-size="10" text-anchor="start" fill="${INK_MUTED}">${esc(l.label ?? l.value)}</text>`;
   }
 
   // baseline axis
@@ -131,9 +133,9 @@ function priceLine(spec) {
   (spec.overlays ?? []).forEach((o, idx) => {
     const color = overlayColors[idx % overlayColors.length];
     const dash = idx === 1 ? ' stroke-dasharray="6 4"' : "";
-    svg += `<path d="${pathD(o.points)}" fill="none" stroke="${color}" stroke-width="2"${dash} stroke-linecap="round" stroke-linejoin="round"/>`;
+    svg += `<path d="${pathDValues(o.points)}" fill="none" stroke="${color}" stroke-width="2"${dash} stroke-linecap="round" stroke-linejoin="round"/>`;
     const last = o.points[o.points.length - 1];
-    svg += `<text x="${(x(o.points.length - 1) + 6).toFixed(1)}" y="${y(last.value).toFixed(1)}" font-size="10" fill="${color === ACCENT_1 ? "#184f95" : "#a8471f"}">${esc(o.label ?? "")}</text>`;
+    svg += `<text x="${(x(o.points.length - 1) + 6).toFixed(1)}" y="${y(last).toFixed(1)}" font-size="10" fill="${color === ACCENT_1 ? "#184f95" : "#a8471f"}">${esc(o.label ?? "")}</text>`;
   });
 
   // main price line
