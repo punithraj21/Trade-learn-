@@ -509,17 +509,38 @@ const GENERATORS = {
 };
 
 function main() {
-  const [, , outPath, specArg] = process.argv;
-  if (!outPath || !specArg) {
+  const [, , outPath, ...rest] = process.argv;
+  if (!outPath || rest.length === 0) {
     console.error(
-      "Usage: node scripts/generate-diagrams.mjs <output.svg> '<json spec>'\n" +
+      "Usage:\n" +
+        "  node scripts/generate-diagrams.mjs <output.svg> '<json spec>'\n" +
+        "  node scripts/generate-diagrams.mjs <output.svg> --spec-file <spec.json>\n" +
+        "(--spec-file avoids shell-quoting headaches — titles/labels with apostrophes\n" +
+        " are a common way to break inline JSON on the command line. Write the spec\n" +
+        " with the Write tool, then pass its path.)\n" +
         `Available spec.type values: ${Object.keys(GENERATORS).join(", ")}`
     );
     process.exit(1);
   }
+  let specText;
+  if (rest[0] === "--spec-file") {
+    const specFilePath = rest[1];
+    if (!specFilePath) {
+      console.error("--spec-file requires a path argument");
+      process.exit(1);
+    }
+    try {
+      specText = fs.readFileSync(specFilePath, "utf8");
+    } catch (e) {
+      console.error(`Could not read spec file "${specFilePath}":`, e.message);
+      process.exit(1);
+    }
+  } else {
+    specText = rest[0];
+  }
   let spec;
   try {
-    spec = JSON.parse(specArg);
+    spec = JSON.parse(specText);
   } catch (e) {
     console.error("Invalid JSON spec:", e.message);
     process.exit(1);
