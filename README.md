@@ -15,8 +15,11 @@ this app is the reader built on top of it.
 - **Module pages** (`/modules/[moduleId]`) — chapter list per module with
   difficulty/duration tags and per-chapter completion state.
 - **Chapter reader** (`/chapters/[slug]`) — full Markdown rendering (headings,
-  callouts, code blocks, tables), an "on this page" outline, a mark-complete
-  toggle, and prev/next navigation that flows across module boundaries.
+  callouts, tables), 316 real SVG diagrams across all 60 chapters (price
+  charts, candlesticks, indicator panels, risk/reward brackets, comparisons —
+  see `scripts/generate-diagrams.mjs`), an "on this page" outline, a
+  mark-complete toggle, and prev/next navigation that flows across module
+  boundaries.
 - **Glossary** (`/glossary`) — all 114 terms, alphabetically grouped with live
   client-side search.
 - **Progress tracking** — stored in the browser's `localStorage` only (no
