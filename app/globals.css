@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f7fb;
+  color: #11152a;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0a0d1a;
+    color: #eceef5;
+  }
+}
+
+::selection {
+  background-color: #c7d2fe;
+  color: #1e1b4b;
+}
+
+/* Prose (chapter body) dark-mode overrides — kept minimal & hand-tuned rather
+   than reaching for the typography plugin's dark variant, since this app has
+   no class-based theme toggle (it follows prefers-color-scheme only). */
+@media (prefers-color-scheme: dark) {
+  .prose-invert-auto {
+    color: #d6dae8;
+  }
+  .prose-invert-auto :is(h1, h2, h3, h4) {
+    color: #f6f7fb;
+  }
+  .prose-invert-auto strong {
+    color: #f6f7fb;
+  }
+  .prose-invert-auto blockquote {
+    color: #b1b9d3;
+    border-left-color: #4338ca;
+  }
+  .prose-invert-auto code {
+    color: #f6f7fb;
+    background-color: #1c2238;
+  }
+  .prose-invert-auto pre {
+    background-color: #0a0d1a;
+  }
+  .prose-invert-auto a {
+    color: #a5b4fc;
+  }
+  .prose-invert-auto hr {
+    border-color: #2b3350;
+  }
+  .prose-invert-auto thead {
+    border-bottom-color: #2b3350;
+  }
+  .prose-invert-auto tbody tr {
+    border-bottom-color: #1c2238;
+  }
+}

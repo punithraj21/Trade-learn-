@@ -1,0 +1,159 @@
+{
+  "course": {
+    "id": "learn-stock-trading",
+    "title": "Learn Stock Trading — From Zero to Confident",
+    "subtitle": "A complete, beginner-friendly course on reading the market, analysing companies, entering trades, making profit and handling loss.",
+    "version": "1.0.0",
+    "language": "en",
+    "level": "beginner-to-intermediate",
+    "author": "Trading Docs",
+    "disclaimer": "Educational content only. This is NOT financial advice. Trading and investing carry a real risk of losing money. Always do your own research and never risk money you cannot afford to lose.",
+    "format": {
+      "chapter_files": "Markdown with YAML frontmatter (see STYLE_GUIDE.md)",
+      "encoding": "UTF-8",
+      "app_note": "Each chapter is a self-contained Markdown file. Parse the YAML frontmatter for metadata (title, order, tags, quiz) and render the body. Use this manifest to build the module/chapter navigation tree."
+    },
+    "totals": {
+      "modules": 8,
+      "chapters": 60
+    }
+  },
+  "modules": [
+    {
+      "id": "foundations",
+      "order": 1,
+      "folder": "chapters/01-foundations",
+      "title": "Trading Foundations",
+      "goal": "Understand what the market is, how it works, and how to place your first trade safely.",
+      "chapters": [
+        { "id": 1, "order": 1, "slug": "what-is-the-stock-market", "file": "chapters/01-foundations/01-what-is-the-stock-market.md", "title": "What Is the Stock Market?", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["basics", "market", "shares"], "prerequisites": [], "summary": "A simple picture of what a stock market is and why it exists." },
+        { "id": 2, "order": 2, "slug": "how-stocks-work", "file": "chapters/01-foundations/02-how-stocks-work.md", "title": "How Stocks Work", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["shares", "ownership", "ipo", "dividends"], "prerequisites": [1], "summary": "What a share really is: owning a slice of a company, and how you make money from it." },
+        { "id": 3, "order": 3, "slug": "market-participants-and-exchanges", "file": "chapters/01-foundations/03-market-participants-and-exchanges.md", "title": "Who's Who: Participants & Exchanges", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["exchange", "broker", "regulator"], "prerequisites": [1], "summary": "The players in the market — exchanges, brokers, regulators, retail and institutions." },
+        { "id": 4, "order": 4, "slug": "instruments-stocks-etfs-indices-derivatives", "file": "chapters/01-foundations/04-instruments-stocks-etfs-indices-derivatives.md", "title": "What You Can Trade", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["etf", "index", "derivatives", "instruments"], "prerequisites": [1, 2], "summary": "Stocks, ETFs, indices, futures and options — what each one is, in plain words." },
+        { "id": 5, "order": 5, "slug": "trading-vs-investing", "file": "chapters/01-foundations/05-trading-vs-investing.md", "title": "Trading vs Investing", "difficulty": "beginner", "estimated_minutes": 7, "tags": ["mindset", "time-horizon"], "prerequisites": [1], "summary": "Two different games with different timeframes, tools and mindsets — and which one fits you." },
+        { "id": 6, "order": 6, "slug": "accounts-brokers-and-getting-started", "file": "chapters/01-foundations/06-accounts-brokers-and-getting-started.md", "title": "Accounts, Brokers & Getting Started", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["demat", "broker", "kyc", "setup"], "prerequisites": [3], "summary": "Demat & trading accounts, choosing a broker, and the steps to go live." },
+        { "id": 7, "order": 7, "slug": "order-types-explained", "file": "chapters/01-foundations/07-order-types-explained.md", "title": "Order Types Explained", "difficulty": "beginner", "estimated_minutes": 10, "tags": ["orders", "market", "limit", "stop-loss"], "prerequisites": [6], "summary": "Market, limit, stop-loss and other orders — the exact buttons you'll press." },
+        { "id": 8, "order": 8, "slug": "market-hours-and-the-order-book", "file": "chapters/01-foundations/08-market-hours-and-the-order-book.md", "title": "Market Hours & the Order Book", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["liquidity", "bid-ask", "sessions"], "prerequisites": [7], "summary": "When markets open, how the order book works, and what bid/ask and spread mean." }
+      ]
+    },
+    {
+      "id": "price-action",
+      "order": 2,
+      "folder": "chapters/02-price-action",
+      "title": "Reading Charts & Price Action",
+      "goal": "Learn to read what the market is telling you using price alone — candles, waves and structure.",
+      "chapters": [
+        { "id": 9, "order": 1, "slug": "what-is-price-action", "file": "chapters/02-price-action/09-what-is-price-action.md", "title": "What Is Price Action?", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["price-action", "ohlc"], "prerequisites": [2], "summary": "Reading the market through price itself — no indicators, no lagging lines, just price." },
+        { "id": 10, "order": 2, "slug": "why-price-action-matters", "file": "chapters/02-price-action/10-why-price-action-matters.md", "title": "Why Price Action Matters", "difficulty": "beginner", "estimated_minutes": 7, "tags": ["price-action", "mindset"], "prerequisites": [9], "summary": "Why price gives you a clearer, faster and more honest view than most tools." },
+        { "id": 11, "order": 3, "slug": "how-price-moves", "file": "chapters/02-price-action/11-how-price-moves.md", "title": "How Price Moves", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["waves", "impulse", "correction", "trend"], "prerequisites": [9], "summary": "Price moves in waves — impulse and pullback — creating higher highs or lower lows." },
+        { "id": 12, "order": 4, "slug": "understanding-candlestick-charts", "file": "chapters/02-price-action/12-understanding-candlestick-charts.md", "title": "Understanding Candlestick Charts", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["candlestick", "ohlc"], "prerequisites": [9], "summary": "How a candlestick chart shows the open, high, low and close for each period." },
+        { "id": 13, "order": 5, "slug": "anatomy-of-a-candlestick", "file": "chapters/02-price-action/13-anatomy-of-a-candlestick.md", "title": "Anatomy of a Candlestick", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["candlestick", "body", "wick"], "prerequisites": [12], "summary": "Body, wicks, open, close — what each part of a single candle tells you." },
+        { "id": 14, "order": 6, "slug": "single-candlestick-patterns", "file": "chapters/02-price-action/14-single-candlestick-patterns.md", "title": "Single Candlestick Patterns", "difficulty": "beginner", "estimated_minutes": 10, "tags": ["candlestick", "patterns", "doji", "hammer"], "prerequisites": [13], "summary": "Doji, hammer, shooting star, marubozu — one candle, one message." },
+        { "id": 15, "order": 7, "slug": "multi-candlestick-patterns", "file": "chapters/02-price-action/15-multi-candlestick-patterns.md", "title": "Multi-Candle Patterns", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["candlestick", "patterns", "engulfing"], "prerequisites": [14], "summary": "Engulfing, harami, morning/evening star — how groups of candles signal reversals." },
+        { "id": 16, "order": 8, "slug": "chart-types-and-timeframes", "file": "chapters/02-price-action/16-chart-types-and-timeframes.md", "title": "Chart Types & Timeframes", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["timeframes", "chart-types"], "prerequisites": [12], "summary": "Line vs bar vs candle, and how to pick and combine timeframes." }
+      ]
+    },
+    {
+      "id": "market-structure",
+      "order": 3,
+      "folder": "chapters/03-market-structure",
+      "title": "Market Structure & Trends",
+      "goal": "See the skeleton of every chart: trend, key levels, zones and the patterns they form.",
+      "chapters": [
+        { "id": 17, "order": 1, "slug": "trends-up-down-and-sideways", "file": "chapters/03-market-structure/17-trends-up-down-and-sideways.md", "title": "Trends: Up, Down & Sideways", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["trend", "structure"], "prerequisites": [11], "summary": "How to identify the three market states and why 'the trend is your friend'." },
+        { "id": 18, "order": 2, "slug": "support-and-resistance", "file": "chapters/03-market-structure/18-support-and-resistance.md", "title": "Support & Resistance", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["support", "resistance", "levels"], "prerequisites": [17], "summary": "The floors and ceilings price reacts to — how to draw and use them." },
+        { "id": 19, "order": 3, "slug": "trendlines-and-channels", "file": "chapters/03-market-structure/19-trendlines-and-channels.md", "title": "Trendlines & Channels", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["trendline", "channel"], "prerequisites": [18], "summary": "Drawing diagonal lines and channels to follow and time a trend." },
+        { "id": 20, "order": 4, "slug": "supply-and-demand-zones", "file": "chapters/03-market-structure/20-supply-and-demand-zones.md", "title": "Supply & Demand Zones", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["supply", "demand", "zones"], "prerequisites": [18], "summary": "Why price turns at zones, not exact lines, and how to find them." },
+        { "id": 21, "order": 5, "slug": "breakouts-retests-and-fakeouts", "file": "chapters/03-market-structure/21-breakouts-retests-and-fakeouts.md", "title": "Breakouts, Retests & Fakeouts", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["breakout", "retest", "fakeout"], "prerequisites": [18], "summary": "How to tell a real breakout from a trap, and wait for the retest." },
+        { "id": 22, "order": 6, "slug": "continuation-chart-patterns", "file": "chapters/03-market-structure/22-continuation-chart-patterns.md", "title": "Continuation Chart Patterns", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["patterns", "flag", "triangle"], "prerequisites": [21], "summary": "Flags, pennants and triangles — pauses before the trend continues." },
+        { "id": 23, "order": 7, "slug": "reversal-chart-patterns", "file": "chapters/03-market-structure/23-reversal-chart-patterns.md", "title": "Reversal Chart Patterns", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["patterns", "head-and-shoulders", "double-top"], "prerequisites": [21], "summary": "Head & shoulders, double tops/bottoms — signs a trend is ending." }
+      ]
+    },
+    {
+      "id": "indicators",
+      "order": 4,
+      "folder": "chapters/04-indicators",
+      "title": "Technical Indicators",
+      "goal": "Add a few well-chosen tools to confirm what price is already telling you — without overloading the chart.",
+      "chapters": [
+        { "id": 24, "order": 1, "slug": "introduction-to-indicators", "file": "chapters/04-indicators/24-introduction-to-indicators.md", "title": "Introduction to Indicators", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["indicators", "leading", "lagging"], "prerequisites": [16], "summary": "What indicators are, leading vs lagging, and why less is more." },
+        { "id": 25, "order": 2, "slug": "moving-averages", "file": "chapters/04-indicators/25-moving-averages.md", "title": "Moving Averages", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["sma", "ema", "crossover"], "prerequisites": [24], "summary": "SMA and EMA — smoothing price to see trend and dynamic support/resistance." },
+        { "id": 26, "order": 3, "slug": "rsi-relative-strength-index", "file": "chapters/04-indicators/26-rsi-relative-strength-index.md", "title": "RSI (Relative Strength Index)", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["rsi", "momentum", "divergence"], "prerequisites": [24], "summary": "Measuring momentum, overbought/oversold, and spotting divergence." },
+        { "id": 27, "order": 4, "slug": "macd", "file": "chapters/04-indicators/27-macd.md", "title": "MACD", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["macd", "momentum", "crossover"], "prerequisites": [25], "summary": "The moving-average convergence/divergence tool for trend and momentum shifts." },
+        { "id": 28, "order": 5, "slug": "bollinger-bands", "file": "chapters/04-indicators/28-bollinger-bands.md", "title": "Bollinger Bands", "difficulty": "intermediate", "estimated_minutes": 8, "tags": ["bollinger", "volatility"], "prerequisites": [25], "summary": "Reading volatility, squeezes and stretch with bands around price." },
+        { "id": 29, "order": 6, "slug": "volume-analysis", "file": "chapters/04-indicators/29-volume-analysis.md", "title": "Volume Analysis", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["volume", "confirmation"], "prerequisites": [21], "summary": "Volume is the fuel — how it confirms moves and warns of weak ones." },
+        { "id": 30, "order": 7, "slug": "fibonacci-retracement", "file": "chapters/04-indicators/30-fibonacci-retracement.md", "title": "Fibonacci Retracement", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["fibonacci", "pullback"], "prerequisites": [19], "summary": "Using Fibonacci levels to find where pullbacks are likely to end." },
+        { "id": 31, "order": 8, "slug": "combining-indicators-and-confluence", "file": "chapters/04-indicators/31-combining-indicators-and-confluence.md", "title": "Combining Indicators (Confluence)", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["confluence", "system"], "prerequisites": [25, 26, 29], "summary": "Stacking a few signals that agree — and avoiding conflicting clutter." }
+      ]
+    },
+    {
+      "id": "fundamentals",
+      "order": 5,
+      "folder": "chapters/05-fundamentals",
+      "title": "Fundamental & Company Analysis",
+      "goal": "Learn how to analyse a company and decide whether it's worth owning at its price.",
+      "chapters": [
+        { "id": 32, "order": 1, "slug": "what-is-fundamental-analysis", "file": "chapters/05-fundamentals/32-what-is-fundamental-analysis.md", "title": "What Is Fundamental Analysis?", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["fundamentals", "value"], "prerequisites": [2], "summary": "Judging a business by what it earns and owns, not just its chart." },
+        { "id": 33, "order": 2, "slug": "reading-financial-statements", "file": "chapters/05-fundamentals/33-reading-financial-statements.md", "title": "Reading Financial Statements", "difficulty": "intermediate", "estimated_minutes": 11, "tags": ["income-statement", "balance-sheet", "cash-flow"], "prerequisites": [32], "summary": "The income statement, balance sheet and cash flow in plain language." },
+        { "id": 34, "order": 3, "slug": "key-financial-ratios", "file": "chapters/05-fundamentals/34-key-financial-ratios.md", "title": "Key Financial Ratios", "difficulty": "intermediate", "estimated_minutes": 11, "tags": ["pe", "roe", "debt", "eps"], "prerequisites": [33], "summary": "P/E, P/B, ROE, ROCE, debt/equity and EPS — what good and bad look like." },
+        { "id": 35, "order": 4, "slug": "understanding-a-business-and-moats", "file": "chapters/05-fundamentals/35-understanding-a-business-and-moats.md", "title": "Understanding a Business & Moats", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["moat", "business-model"], "prerequisites": [32], "summary": "What the company actually does and what protects it from competitors." },
+        { "id": 36, "order": 5, "slug": "management-and-industry-analysis", "file": "chapters/05-fundamentals/36-management-and-industry-analysis.md", "title": "Management & Industry Analysis", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["management", "industry", "macro"], "prerequisites": [35], "summary": "Judging the people running the company and the tide of its industry." },
+        { "id": 37, "order": 6, "slug": "valuation-basics", "file": "chapters/05-fundamentals/37-valuation-basics.md", "title": "Valuation Basics", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["valuation", "intrinsic-value"], "prerequisites": [34], "summary": "Price vs value — a beginner-friendly look at what a company is worth." },
+        { "id": 38, "order": 7, "slug": "how-to-analyze-a-company-checklist", "file": "chapters/05-fundamentals/38-how-to-analyze-a-company-checklist.md", "title": "How to Analyse a Company (Checklist)", "difficulty": "intermediate", "estimated_minutes": 11, "tags": ["checklist", "research"], "prerequisites": [33, 34, 35, 36, 37], "summary": "A step-by-step, repeatable checklist to research any company." }
+      ]
+    },
+    {
+      "id": "strategies",
+      "order": 6,
+      "folder": "chapters/06-strategies",
+      "title": "Entries, Exits & Strategies",
+      "goal": "Turn analysis into decisions: exactly when to enter, when to exit, and how to build a repeatable setup.",
+      "chapters": [
+        { "id": 39, "order": 1, "slug": "when-to-enter-a-trade", "file": "chapters/06-strategies/39-when-to-enter-a-trade.md", "title": "When to Enter a Trade", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["entry", "confirmation", "trigger"], "prerequisites": [21, 18], "summary": "Turning a signal into an entry with a trigger, confirmation and a plan." },
+        { "id": 40, "order": 2, "slug": "when-to-exit-a-trade", "file": "chapters/06-strategies/40-when-to-exit-a-trade.md", "title": "When to Exit a Trade", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["exit", "target", "trailing-stop"], "prerequisites": [39], "summary": "Where to take profit, where to cut, and how to trail a winner." },
+        { "id": 41, "order": 3, "slug": "trading-styles-from-scalping-to-positional", "file": "chapters/06-strategies/41-trading-styles-from-scalping-to-positional.md", "title": "Trading Styles: Scalping to Positional", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["scalping", "intraday", "swing", "positional"], "prerequisites": [5], "summary": "Matching your timeframe and style to your personality and schedule." },
+        { "id": 42, "order": 4, "slug": "trend-following-strategy", "file": "chapters/06-strategies/42-trend-following-strategy.md", "title": "Trend-Following Strategy", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["strategy", "trend"], "prerequisites": [17, 25], "summary": "A complete, rules-based way to ride established trends." },
+        { "id": 43, "order": 5, "slug": "breakout-strategy", "file": "chapters/06-strategies/43-breakout-strategy.md", "title": "Breakout Strategy", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["strategy", "breakout"], "prerequisites": [21, 29], "summary": "Trading the moment price escapes a level — with rules to dodge traps." },
+        { "id": 44, "order": 6, "slug": "pullback-strategy", "file": "chapters/06-strategies/44-pullback-strategy.md", "title": "Pullback Strategy", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["strategy", "pullback", "retracement"], "prerequisites": [11, 30], "summary": "Buying the dip in an uptrend (or selling the bounce in a downtrend) with structure." },
+        { "id": 45, "order": 7, "slug": "building-your-trading-system", "file": "chapters/06-strategies/45-building-your-trading-system.md", "title": "Building Your Trading System", "difficulty": "intermediate", "estimated_minutes": 11, "tags": ["system", "rules", "edge"], "prerequisites": [42, 43, 44], "summary": "Combining setup, entry, exit and risk into one written, testable system." }
+      ]
+    },
+    {
+      "id": "risk-psychology",
+      "order": 7,
+      "folder": "chapters/07-risk-psychology",
+      "title": "Risk, Money & Psychology",
+      "goal": "The real edge: protect your money, make profit repeatable, and handle losses like a professional.",
+      "chapters": [
+        { "id": 46, "order": 1, "slug": "risk-management-fundamentals", "file": "chapters/07-risk-psychology/46-risk-management-fundamentals.md", "title": "Risk Management Fundamentals", "difficulty": "beginner", "estimated_minutes": 10, "tags": ["risk", "capital", "survival"], "prerequisites": [7], "summary": "The single most important skill: staying in the game by protecting capital." },
+        { "id": 47, "order": 2, "slug": "position-sizing-and-the-2-percent-rule", "file": "chapters/07-risk-psychology/47-position-sizing-and-the-2-percent-rule.md", "title": "Position Sizing & the 2% Rule", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["position-sizing", "risk"], "prerequisites": [46], "summary": "How much to buy so one bad trade can never hurt you badly." },
+        { "id": 48, "order": 3, "slug": "stop-loss-mastery", "file": "chapters/07-risk-psychology/48-stop-loss-mastery.md", "title": "Stop-Loss Mastery", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["stop-loss", "risk"], "prerequisites": [46], "summary": "Why every trade needs a stop, where to place it, and never moving it wider." },
+        { "id": 49, "order": 4, "slug": "risk-reward-ratio", "file": "chapters/07-risk-psychology/49-risk-reward-ratio.md", "title": "Risk-Reward Ratio", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["risk-reward", "win-rate", "expectancy"], "prerequisites": [48], "summary": "How you can be profitable even when you lose more often than you win." },
+        { "id": 50, "order": 5, "slug": "how-to-take-profits", "file": "chapters/07-risk-psychology/50-how-to-take-profits.md", "title": "How to Take Profits", "difficulty": "intermediate", "estimated_minutes": 10, "tags": ["profit", "exit", "scaling-out"], "prerequisites": [49], "summary": "Booking gains, scaling out and letting winners run without giving it all back." },
+        { "id": 51, "order": 6, "slug": "how-to-handle-losses", "file": "chapters/07-risk-psychology/51-how-to-handle-losses.md", "title": "How to Handle Losses", "difficulty": "beginner", "estimated_minutes": 10, "tags": ["loss", "psychology", "drawdown"], "prerequisites": [46], "summary": "Accepting losses as a cost of business — and avoiding the spiral that wipes accounts." },
+        { "id": 52, "order": 7, "slug": "trading-psychology", "file": "chapters/07-risk-psychology/52-trading-psychology.md", "title": "Trading Psychology", "difficulty": "beginner", "estimated_minutes": 10, "tags": ["psychology", "fear", "greed", "fomo"], "prerequisites": [51], "summary": "Fear, greed, FOMO and revenge trading — and how to stay in control." },
+        { "id": 53, "order": 8, "slug": "discipline-and-consistency", "file": "chapters/07-risk-psychology/53-discipline-and-consistency.md", "title": "Discipline & Consistency", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["discipline", "habits", "consistency"], "prerequisites": [52], "summary": "The habits that separate people who last from people who blow up." }
+      ]
+    },
+    {
+      "id": "mastery",
+      "order": 8,
+      "folder": "chapters/08-mastery",
+      "title": "Putting It All Together",
+      "goal": "Combine everything into a written plan, a daily routine and a lifelong practice loop.",
+      "chapters": [
+        { "id": 54, "order": 1, "slug": "building-a-trading-plan", "file": "chapters/08-mastery/54-building-a-trading-plan.md", "title": "Building a Trading Plan", "difficulty": "intermediate", "estimated_minutes": 11, "tags": ["plan", "rules"], "prerequisites": [45, 46], "summary": "A one-page written plan that decides your rules before emotions can." },
+        { "id": 55, "order": 2, "slug": "keeping-a-trading-journal", "file": "chapters/08-mastery/55-keeping-a-trading-journal.md", "title": "Keeping a Trading Journal", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["journal", "review"], "prerequisites": [54], "summary": "What to record after every trade so you actually improve." },
+        { "id": 56, "order": 3, "slug": "common-beginner-mistakes", "file": "chapters/08-mastery/56-common-beginner-mistakes.md", "title": "Common Beginner Mistakes", "difficulty": "beginner", "estimated_minutes": 9, "tags": ["mistakes", "pitfalls"], "prerequisites": [], "summary": "The traps almost every new trader falls into — and how to skip them." },
+        { "id": 57, "order": 4, "slug": "practice-with-paper-trading", "file": "chapters/08-mastery/57-practice-with-paper-trading.md", "title": "Practice with Paper Trading", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["paper-trading", "practice", "backtest"], "prerequisites": [45], "summary": "How to practise and test a strategy safely before risking real money." },
+        { "id": 58, "order": 5, "slug": "costs-taxes-and-slippage", "file": "chapters/08-mastery/58-costs-taxes-and-slippage.md", "title": "Costs, Taxes & Slippage", "difficulty": "intermediate", "estimated_minutes": 9, "tags": ["costs", "brokerage", "tax", "slippage"], "prerequisites": [7], "summary": "The hidden fees that quietly eat profits, and how to keep them small." },
+        { "id": 59, "order": 6, "slug": "your-daily-trading-routine", "file": "chapters/08-mastery/59-your-daily-trading-routine.md", "title": "Your Daily Trading Routine", "difficulty": "beginner", "estimated_minutes": 8, "tags": ["routine", "watchlist", "habits"], "prerequisites": [54], "summary": "A simple before/during/after-market routine to stay prepared and calm." },
+        { "id": 60, "order": 7, "slug": "the-complete-trading-framework", "file": "chapters/08-mastery/60-the-complete-trading-framework.md", "title": "The Complete Trading Framework", "difficulty": "intermediate", "estimated_minutes": 11, "tags": ["framework", "summary", "capstone"], "prerequisites": [], "summary": "Every lesson tied together into one clear map from chart to decision to review." }
+      ]
+    }
+  ],
+  "reference": {
+    "glossary": "reference/glossary.md",
+    "notes": "Chapters 9–13 are aligned with the Price Action Notebook reference notes supplied by the learner (lessons 1–5)."
+  }
+}
