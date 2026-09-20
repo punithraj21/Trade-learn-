@@ -1,9 +1,9 @@
-import fs from "node:fs";
-import path from "node:path";
-import matter from "gray-matter";
+// Content comes from a build-time-generated JSON module (see
+// scripts/generate-content.mjs), not runtime fs reads — this file must work
+// identically under `next start`, the edge runtime, and Cloudflare Workers,
+// where the docs/ folder is not available in the request-time sandbox.
+import generatedContent from "./generated/content.json";
 import { slugify } from "./slug";
-
-const DOCS_DIR = path.join(process.cwd(), "docs");
 
 export interface ChapterMeta {
   id: number;
@@ -47,32 +47,33 @@ export interface ChapterOutlineItem {
   id: string;
 }
 
+export interface FlatChapterMeta extends ChapterMeta {
+  moduleId: string;
+  moduleTitle: string;
+}
+
 export interface Chapter extends FlatChapterMeta {
   content: string;
   outline: ChapterOutlineItem[];
 }
 
-let manifestCache: Manifest | null = null;
+// The JSON module's inferred type is a giant literal derived from the
+// current file contents — cast once here rather than fight it at every call site.
+const content = generatedContent as unknown as {
+  manifest: Manifest;
+  chapters: Record<string, string>;
+};
 
-/** Reads and parses docs/manifest.json (cached per server process). */
 export function getManifest(): Manifest {
-  if (manifestCache) return manifestCache;
-  const raw = fs.readFileSync(path.join(DOCS_DIR, "manifest.json"), "utf8");
-  manifestCache = JSON.parse(raw) as Manifest;
-  return manifestCache;
+  return content.manifest;
 }
 
 export function getModules(): Module[] {
-  return [...getManifest().modules].sort((a, b) => a.order - b.order);
+  return [...content.manifest.modules].sort((a, b) => a.order - b.order);
 }
 
 export function getModule(moduleId: string): Module | undefined {
-  return getManifest().modules.find((m) => m.id === moduleId);
-}
-
-export interface FlatChapterMeta extends ChapterMeta {
-  moduleId: string;
-  moduleTitle: string;
+  return content.manifest.modules.find((m) => m.id === moduleId);
 }
 
 /** All 60 chapters, flattened and sorted into reading order. */
@@ -105,14 +106,13 @@ export function getChapterBySlug(slug: string): Chapter | undefined {
   const meta = getAllChapterMetas().find((c) => c.slug === slug);
   if (!meta) return undefined;
 
-  const filePath = path.join(DOCS_DIR, meta.file);
-  const raw = fs.readFileSync(filePath, "utf8");
-  const { content } = matter(raw);
+  const body = content.chapters[slug];
+  if (body === undefined) return undefined;
 
   return {
     ...meta,
-    content: content.trim(),
-    outline: extractOutline(content),
+    content: body,
+    outline: extractOutline(body),
   };
 }
 
@@ -133,5 +133,5 @@ export function getAdjacentChapters(id: number): AdjacentChapters {
 }
 
 export function getTotalChapterCount(): number {
-  return getManifest().course.totals.chapters;
+  return content.manifest.course.totals.chapters;
 }
